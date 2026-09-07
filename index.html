@@ -34,3 +34,12 @@ document.querySelectorAll('[data-fuel]').forEach(b=>b.onclick=()=>{fuel=b.datase
 const distance=(a,b)=>{const rad=x=>x*Math.PI/180,dlat=rad(b.lat-a.lat),dlon=rad(b.lon-a.lon),v=Math.sin(dlat/2)**2+Math.cos(rad(a.lat))*Math.cos(rad(b.lat))*Math.sin(dlon/2)**2;return 6371*2*Math.atan2(Math.sqrt(v),Math.sqrt(1-v));};
 document.querySelector('#near').onclick=()=>{if(!ready){status('Wait for the map to load before searching nearby.');return;}if(!navigator.geolocation){status('Location is unavailable in this browser. Use the Metro Manila map button.');return;}status('Finding your location… Your position stays in this browser.');navigator.geolocation.getCurrentPosition(pos=>{const origin={lat:pos.coords.latitude,lon:pos.coords.longitude};const candidates=stations.filter(s=>selected.has(s.brand)&&getPrice(s)).map(s=>({s,d:distance(origin,s),p:getPrice(s).price})).filter(x=>x.d<=15).sort((a,b)=>a.p-b.p||a.d-b.d);map.flyTo({center:[origin.lon,origin.lat],zoom:12});if(!candidates.length){status('No verified reference prices within 15 km for the selected brands and fuel. Nearby grey stations may still be available; we cannot say which is cheapest.');document.querySelector('#nearResult').textContent='';return;}const best=candidates[0];status(`Lowest available reference within 15 km: <strong>${esc(best.s.brand)} · ₱${best.p.toFixed(2)}/L</strong> · ${best.d.toFixed(1)} km straight-line distance. This compares known references only, not all actual pump prices.`);map.flyTo({center:[best.s.lon,best.s.lat],zoom:14});showStation(best.s);},()=>status('Location permission denied or location unavailable. Use the map to explore; no location was saved.'),{timeout:12000,maximumAge:60000});};
 </script></body></html>
+<!-- Additive renderer correction: preserve existing source code under no-overwrite rule. -->
+<script>
+// GPU circle rendering for all visible zoom levels; avoids the observed cluster-index failure.
+if(map){map.once('load',()=>{const layers=map.getStyle().layers.filter(l=>l.source==='stations');for(const l of [...layers].reverse())map.removeLayer(l.id);map.removeSource('stations');map.addSource('stations',{type:'geojson',data:features(),cluster:true,clusterMaxZoom:0,clusterRadius:42});for(const l of layers)map.addLayer(l);refresh();document.querySelector('.legend').lastChild.textContent='Dots = mapped stations · zoom to see prices';});}
+</script>
+<script>
+// v5.6.2 treats zero as the default max zoom; 1 is below the app minZoom of 3.
+if(map)map.once('load',()=>map.getSource('stations').setClusterOptions({clusterMaxZoom:1}));
+</script>

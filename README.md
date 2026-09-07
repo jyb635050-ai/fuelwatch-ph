@@ -40,3 +40,7 @@ Negative test: node docs/acceptance.mjs prices docs/negative-prices.json must ex
 PROGRESS.md records completed work. BLOCKED.md records limitations and deviations. Failed fetch implementation is retained under the no-overwrite rule; curl evidence and tools/process_stations.mjs successfully produced the stations.
 
 Public source excerpt: docs/source-evidence.md. Full HTML/text evidence is local-only. Delivered screenshots use the *-verified.png filenames after waiting for actual rendered station features.
+
+Final renderer clarification: the installed MapLibre clustering path failed to draw clusters in browser verification. Clustering is therefore restricted to zoom 0 (outside the app's zoom range); all visible levels use GPU/WebGL circle layers, which the brief explicitly permits. Actual rendered-feature verification counts 10,842 nationwide points. There are no individual DOM markers. Cluster-count language in earlier notes describes the initial implementation, not the final visible rendering.
+
+The final clusterMaxZoom is 1 (the library treats zero as a default). This remains below minZoom=3, so visible rendering is entirely WebGL circles.
