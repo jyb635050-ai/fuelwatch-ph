@@ -33,3 +33,10 @@ page 验收通过。卡通 SVG 油滴、粗描边、圆角与绿红价格编码�
 轮次 5 浏览器结果：本地 file:// 模式地图实际加载 10842 features；品牌清空/全选、95 不跨品牌、点位弹窗、附近定位比较通过；手机无横向溢出；截图 docs/home.png, map.png, mobile.png。
 
 全国实际渲染验证已通过：rendered=10842，403 有价；交互与手机检查通过。地图截图仍有底图加载未完成的局部空白，交付前改等 tilesLoaded/移动结束后从线上截图，保留旧图。
+
+轮次 9：已保存验收实际输出及红→绿退出码证据 docs/acceptance-evidence.txt；本地/Git SHA256 都与任务 2 冻结值一致。线上部署后复验准备完成。
+
+轮次 5 浏览器结果：本地 file:// 模式地图实际加载 10842 features；品牌清空/全选、95 不跨品牌、点位弹窗、附近定位比较通过；手机无横向溢出；截图 docs/home.png, map.png, mobile.png。
+
+轮次 10：线上最终验收通过。rendered=10842，features=10842，priced=403；交互/手机/零脚本异常通过。home-final.png 与 map-final.png 已逐图查看，底图完整、声明/日期/来源可见。
+轮次 11：交付收尾。已汇总 docs/handoff.md、acceptance-evidence.txt、browser-results-online.json 和 BLOCKED.md，最终截图随仓库提交。每周自动更新未做、缺价范围、负向副本测试偏差均如实披露。

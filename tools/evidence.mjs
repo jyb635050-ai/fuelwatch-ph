@@ -1,0 +1,5 @@
+import{spawnSync,execFileSync}from'node:child_process';import{readFileSync,writeFileSync}from'node:fs';import{createHash}from'node:crypto';
+let text='FuelWatch PH actual acceptance output · 2026-09-07\n';
+for(const args of [['docs/acceptance.mjs','stations'],['docs/acceptance.mjs','prices','docs/negative-prices.json'],['docs/acceptance.mjs','prices'],['docs/acceptance.mjs','page'],['docs/acceptance.mjs','all']]){const r=spawnSync(process.execPath,args,{encoding:'utf8'});text+='\n> node '+args.join(' ')+'\n'+r.stdout+r.stderr+'exit='+r.status+'\n';if(r.status!==(args.includes('docs/negative-prices.json')?1:0))throw Error(text);}
+const expected='cabd0d72a74f79132c7a4d537595d0cf31447407ed0fe92188203969551a90a9';for(const[n,b]of[['disk',readFileSync('docs/acceptance.mjs')],['git',execFileSync('git',['show','HEAD:docs/acceptance.mjs'])]]){const hash=createHash('sha256').update(b).digest('hex');text+=n+' SHA256 '+hash+'\n';if(hash!==expected)throw Error('frozen hash mismatch');}
+console.log(text);writeFileSync('docs/acceptance-evidence.txt',text,{flag:'wx'});

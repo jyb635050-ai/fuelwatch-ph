@@ -1,0 +1,16 @@
+{
+  "initial": {
+    "stations": 10842,
+    "features": 10842,
+    "priced": 403,
+    "canvas": true,
+    "loaded": true,
+    "rendered": 10842
+  },
+  "filters": true,
+  "ron95NoCrossBrand": true,
+  "popup": true,
+  "nearby": true,
+  "mobileOverflow": false,
+  "errors": []
+}

@@ -1,0 +1,25 @@
+FuelWatch PH actual acceptance output · 2026-09-07
+
+> node docs/acceptance.mjs stations
+PASS stations: total=10842 >=10500; missing_coordinates=0; brands=40 <=40; no case variants
+exit=0
+
+> node docs/acceptance.mjs prices docs/negative-prices.json
+FAIL prices: source_url must start with http
+exit=1
+
+> node docs/acceptance.mjs prices
+PASS prices: rows=19 >=15; source_url=http; as_of=2026-09-01 within 21 days; duplicates=0 (data/prices.json)
+exit=0
+
+> node docs/acceptance.mjs page
+PASS page: openfreemap; clustered stations; no Marker; 非该站实测; dated history
+exit=0
+
+> node docs/acceptance.mjs all
+PASS stations: total=10842 >=10500; missing_coordinates=0; brands=40 <=40; no case variants
+PASS prices: rows=19 >=15; source_url=http; as_of=2026-09-01 within 21 days; duplicates=0 (data/prices.json)
+PASS page: openfreemap; clustered stations; no Marker; 非该站实测; dated history
+exit=0
+disk SHA256 cabd0d72a74f79132c7a4d537595d0cf31447407ed0fe92188203969551a90a9
+git SHA256 cabd0d72a74f79132c7a4d537595d0cf31447407ed0fe92188203969551a90a9
