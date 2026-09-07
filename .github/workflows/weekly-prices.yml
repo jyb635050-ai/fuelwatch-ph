@@ -1,0 +1,51 @@
+name: Weekly verified fuel prices
+on:
+  schedule:
+    # Philippines UTC+8: Tuesday/Wednesday 10:17 and 18:17; repeat for late source publication.
+    - cron: '17 2,10 * * 2,3'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: weekly-fuel-prices
+  cancel-in-progress: false
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test date and provenance protections
+        run: node tools/test_weekly_verified.mjs
+      - name: Fetch only current-week verified prices
+        run: node tools/update_weekly.mjs
+      - name: Run frozen acceptance
+        run: node docs/acceptance.mjs all
+      - name: Commit a new weekly snapshot if present
+        run: |
+          git add data/prices.json data/history.json data/bundle.js PROGRESS.md
+          if [ -d data/snapshots ]; then git add data/snapshots; fi
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update verified weekly fuel prices'
+            git push
+          fi
+      - name: Prepare static files
+        run: |
+          mkdir -p .site/data
+          cp index.html .site/
+          cp data/stations.json data/prices.json data/history.json data/bundle.js .site/data/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .site
+      - name: Publish verified website
+        id: deployment
+        uses: actions/deploy-pages@v4

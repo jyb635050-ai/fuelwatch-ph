@@ -10,3 +10,6 @@ docs/map.png
 docs/mobile.png
 
 docs/maplibre-diagnostic.js
+
+data/update-backups/
+.site/

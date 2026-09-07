@@ -45,3 +45,11 @@ if(map)map.once('load',()=>map.getSource('stations').setClusterOptions({clusterM
 </script>
 <style>@media(max-width:640px){.brands{grid-template-columns:minmax(0,1fr)}.brand{min-width:0}.brand b{font-size:14px}.maplibregl-popup{max-width:calc(100vw - 64px)!important}}</style>
 <script>if(map)map.on('resize',()=>{if(popup)popup.remove();});</script>
+<script>
+// Keep weekly display tied to published snapshots, not the original launch-week announcement.
+const weeks=history.snapshots.slice().sort((a,b)=>a.as_of.localeCompare(b.as_of));
+const previous=weeks.find(s=>Date.parse(prices.as_of)-Date.parse(s.as_of)===7*86400000);
+const changeText=f=>{if(!previous)return 'Collecting weekly history';const values=prices.rows.filter(r=>r.fuel===f&&r.region==='NCR').flatMap(r=>{const p=previous.rows.find(p=>p.brand===r.brand&&p.region===r.region&&p.fuel===r.fuel);return p?[r.price-p.price]:[];});if(!values.length)return 'No comparable references';const format=n=>(n>0?'+':'')+'₱'+n.toFixed(2);const lo=Math.min(...values),hi=Math.max(...values);return lo===hi?format(lo)+'/L':format(lo)+' to '+format(hi)+'/L';};
+document.querySelector('.adjustments').innerHTML=`<div><b>NCR reference change</b><br>Diesel: ${changeText('diesel')}<br>Unleaded 91: ${changeText('ron91')}</div><small>Week of ${esc(prices.as_of)}<br>Comparable brand averages only<br><a href="https://gaswatchph.com/" target="_blank" rel="noopener">Price source ↗</a></small>`;
+document.querySelector('#history').innerHTML=weeks.length<2?`数据从 ${esc(weeks[0].as_of)} 周开始积累。<br>One week recorded. No invented trend lines.`:`${weeks.length} weekly snapshots recorded since ${esc(weeks[0].as_of)}.<br>Trends use recorded brand references only.`;
+</script>
