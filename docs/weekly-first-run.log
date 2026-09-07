@@ -1,0 +1,280 @@
+update-and-publish	Set up job	﻿2026-09-07T05:03:43.1427013Z Current runner version: '2.337.0'
+update-and-publish	Set up job	2026-09-07T05:03:43.1453336Z ##[group]Runner Image Provisioner
+update-and-publish	Set up job	2026-09-07T05:03:43.1454255Z Hosted Compute Agent
+update-and-publish	Set up job	2026-09-07T05:03:43.1454908Z Version: 20260828.587
+update-and-publish	Set up job	2026-09-07T05:03:43.1455568Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+update-and-publish	Set up job	2026-09-07T05:03:43.1456301Z Build Date: 2026-08-28T16:44:25Z
+update-and-publish	Set up job	2026-09-07T05:03:43.1457045Z Worker ID: {bebaf9dd-f8e3-4fd5-b078-c6bf917503e5}
+update-and-publish	Set up job	2026-09-07T05:03:43.1457812Z Azure Region: northcentralus
+update-and-publish	Set up job	2026-09-07T05:03:43.1458460Z ##[endgroup]
+update-and-publish	Set up job	2026-09-07T05:03:43.1460179Z ##[group]Operating System
+update-and-publish	Set up job	2026-09-07T05:03:43.1460834Z Ubuntu
+update-and-publish	Set up job	2026-09-07T05:03:43.1461459Z 24.04.4
+update-and-publish	Set up job	2026-09-07T05:03:43.1462007Z LTS
+update-and-publish	Set up job	2026-09-07T05:03:43.1462504Z ##[endgroup]
+update-and-publish	Set up job	2026-09-07T05:03:43.1463118Z ##[group]Runner Image
+update-and-publish	Set up job	2026-09-07T05:03:43.1463711Z Image: ubuntu-24.04
+update-and-publish	Set up job	2026-09-07T05:03:43.1464314Z Version: 20260831.293.1
+update-and-publish	Set up job	2026-09-07T05:03:43.1465434Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260831.293/images/ubuntu/Ubuntu2404-Readme.md
+update-and-publish	Set up job	2026-09-07T05:03:43.1467204Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260831.293
+update-and-publish	Set up job	2026-09-07T05:03:43.1468387Z ##[endgroup]
+update-and-publish	Set up job	2026-09-07T05:03:43.1470106Z ##[group]GITHUB_TOKEN Permissions
+update-and-publish	Set up job	2026-09-07T05:03:43.1472249Z Contents: write
+update-and-publish	Set up job	2026-09-07T05:03:43.1472945Z Metadata: read
+update-and-publish	Set up job	2026-09-07T05:03:43.1473533Z Pages: write
+update-and-publish	Set up job	2026-09-07T05:03:43.1474080Z ##[endgroup]
+update-and-publish	Set up job	2026-09-07T05:03:43.1476521Z Secret source: Actions
+update-and-publish	Set up job	2026-09-07T05:03:43.1477771Z Prepare workflow directory
+update-and-publish	Set up job	2026-09-07T05:03:43.1822872Z Prepare all required actions
+update-and-publish	Set up job	2026-09-07T05:03:43.1870248Z Getting action download info
+update-and-publish	Set up job	2026-09-07T05:03:43.4725012Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+update-and-publish	Set up job	2026-09-07T05:03:43.5963836Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+update-and-publish	Set up job	2026-09-07T05:03:43.6897283Z Download action repository 'actions/configure-pages@v5' (SHA:983d7736d9b0ae728b81ab479565c72886d7745b)
+update-and-publish	Set up job	2026-09-07T05:03:44.0572071Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+update-and-publish	Set up job	2026-09-07T05:03:44.1755442Z Download action repository 'actions/deploy-pages@v4' (SHA:d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e)
+update-and-publish	Set up job	2026-09-07T05:03:44.6848825Z Getting action download info
+update-and-publish	Set up job	2026-09-07T05:03:44.7642709Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+update-and-publish	Set up job	2026-09-07T05:03:44.8987639Z Complete job name: update-and-publish
+update-and-publish	Run actions/checkout@v4	﻿2026-09-07T05:03:44.9831822Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9841439Z ##[group]Run actions/checkout@v4
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9842485Z with:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9843134Z   repository: jyb635050-ai/fuelwatch-ph
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9847872Z   token: ***
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9848445Z   ssh-strict: true
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9849279Z   ssh-user: git
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9849886Z   persist-credentials: true
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9850542Z   clean: true
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9851160Z   sparse-checkout-cone-mode: true
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9851828Z   fetch-depth: 1
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9852381Z   fetch-tags: false
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9853046Z   show-progress: true
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9853657Z   lfs: false
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9854281Z   submodules: false
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9854959Z   set-safe-directory: true
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9855669Z   allow-unsafe-pr-checkout: false
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:44.9856691Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0973610Z Syncing repository: jyb635050-ai/fuelwatch-ph
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0976460Z ##[group]Getting Git version info
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0977784Z Working directory is '/home/runner/work/fuelwatch-ph/fuelwatch-ph'
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0979997Z [command]/usr/bin/git version
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0980922Z git version 2.55.0
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0984157Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0995446Z Temporarily overriding HOME='/home/runner/work/_temp/8bff874b-f714-48bd-afbd-5dc83cb3d164' before making global git config changes
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.0998081Z Adding repository directory to the temporary git global config as a safe directory
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1001070Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/fuelwatch-ph/fuelwatch-ph
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1071566Z Deleting the contents of '/home/runner/work/fuelwatch-ph/fuelwatch-ph'
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1074031Z ##[group]Initializing the repository
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1077815Z [command]/usr/bin/git init /home/runner/work/fuelwatch-ph/fuelwatch-ph
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1200025Z hint: Using 'master' as the name for the initial branch. This default branch name
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1207875Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1210451Z hint: to use in all of your new repositories, which will suppress this warning,
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1212555Z hint: call:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1214144Z hint:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1215600Z hint: 	git config --global init.defaultBranch <name>
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1216923Z hint:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1218099Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1220176Z hint: 'development'. The just-created branch can be renamed via this command:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1221545Z hint:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1222300Z hint: 	git branch -m <name>
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1223012Z hint:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1223709Z hint: Disable this message with "git config set advice.defaultBranchName false"
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1225554Z Initialized empty Git repository in /home/runner/work/fuelwatch-ph/fuelwatch-ph/.git/
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1229247Z [command]/usr/bin/git remote add origin https://github.com/jyb635050-ai/fuelwatch-ph
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1268173Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1270481Z ##[group]Disabling automatic garbage collection
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1272586Z [command]/usr/bin/git config --local gc.auto 0
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1306233Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1315127Z ##[group]Setting up auth
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1315990Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1357407Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1740429Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.1783942Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.2055469Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.2088345Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.2385215Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.2425287Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.2426306Z ##[group]Fetching the repository
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.2435246Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +0f3c2ec98b43260a6ecc50d5d2fab56a49c2f7b6:refs/remotes/origin/main
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9301107Z From https://github.com/jyb635050-ai/fuelwatch-ph
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9303988Z  * [new ref]         0f3c2ec98b43260a6ecc50d5d2fab56a49c2f7b6 -> origin/main
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9309075Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9311203Z ##[group]Determining the checkout info
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9313558Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9315030Z [command]/usr/bin/git sparse-checkout disable
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9368919Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9411111Z ##[group]Checking out the ref
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9414884Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9764787Z Switched to a new branch 'main'
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9769458Z branch 'main' set up to track 'origin/main'.
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9778226Z ##[endgroup]
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9824409Z [command]/usr/bin/git log -1 --format=%H
+update-and-publish	Run actions/checkout@v4	2026-09-07T05:03:45.9852675Z 0f3c2ec98b43260a6ecc50d5d2fab56a49c2f7b6
+update-and-publish	Run actions/setup-node@v4	﻿2026-09-07T05:03:46.0239574Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.0245379Z ##[group]Run actions/setup-node@v4
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.0246541Z with:
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.0247401Z   node-version: 24
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.0248384Z   always-auth: false
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.0249578Z   check-latest: false
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.0260540Z   token: ***
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.0261447Z ##[endgroup]
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.1686922Z Found in cache @ /opt/hostedtoolcache/node/24.20.0/x64
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.1691976Z (node:2193) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.1696997Z (Use `node --trace-deprecation ...` to show where the warning was created)
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.1702520Z ##[group]Environment details
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.6397700Z node: v24.20.0
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.6399536Z npm: 11.19.0
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.6400929Z yarn: 1.22.22
+update-and-publish	Run actions/setup-node@v4	2026-09-07T05:03:46.6403887Z ##[endgroup]
+update-and-publish	Test date and provenance protections	﻿2026-09-07T05:03:46.6579790Z ##[group]Run node tools/test_weekly_verified.mjs
+update-and-publish	Test date and provenance protections	2026-09-07T05:03:46.6581329Z ^[[36;1mnode tools/test_weekly_verified.mjs^[[0m
+update-and-publish	Test date and provenance protections	2026-09-07T05:03:46.6639597Z shell: /usr/bin/bash -e {0}
+update-and-publish	Test date and provenance protections	2026-09-07T05:03:46.6640683Z ##[endgroup]
+update-and-publish	Test date and provenance protections	2026-09-07T05:03:46.7309102Z PASS weekly: 18 real rows; stale date rejected; inconsistent dates rejected; incomplete table rejected; same-week idempotent; history preserved; missing grade not carried forward; Manila week boundary
+update-and-publish	Fetch only current-week verified prices	﻿2026-09-07T05:03:46.7425542Z ##[group]Run node tools/update_weekly.mjs
+update-and-publish	Fetch only current-week verified prices	2026-09-07T05:03:46.7426869Z ^[[36;1mnode tools/update_weekly.mjs^[[0m
+update-and-publish	Fetch only current-week verified prices	2026-09-07T05:03:46.7467783Z shell: /usr/bin/bash -e {0}
+update-and-publish	Fetch only current-week verified prices	2026-09-07T05:03:46.7469047Z ##[endgroup]
+update-and-publish	Fetch only current-week verified prices	2026-09-07T05:03:47.0072387Z NO_CHANGE: verified source week 2026-09-01 is already recorded; 19 existing rows retained
+update-and-publish	Run frozen acceptance	﻿2026-09-07T05:03:47.0190550Z ##[group]Run node docs/acceptance.mjs all
+update-and-publish	Run frozen acceptance	2026-09-07T05:03:47.0191911Z ^[[36;1mnode docs/acceptance.mjs all^[[0m
+update-and-publish	Run frozen acceptance	2026-09-07T05:03:47.0231997Z shell: /usr/bin/bash -e {0}
+update-and-publish	Run frozen acceptance	2026-09-07T05:03:47.0233019Z ##[endgroup]
+update-and-publish	Run frozen acceptance	2026-09-07T05:03:47.0924222Z PASS stations: total=10842 >=10500; missing_coordinates=0; brands=40 <=40; no case variants
+update-and-publish	Run frozen acceptance	2026-09-07T05:03:47.0935690Z PASS prices: rows=19 >=15; source_url=http; as_of=2026-09-01 within 21 days; duplicates=0 (data/prices.json)
+update-and-publish	Run frozen acceptance	2026-09-07T05:03:47.0942355Z PASS page: openfreemap; clustered stations; no Marker; 非该站实测; dated history
+update-and-publish	Commit a new weekly snapshot if present	﻿2026-09-07T05:03:47.1068067Z ##[group]Run git add data/prices.json data/history.json data/bundle.js PROGRESS.md
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1070507Z ^[[36;1mgit add data/prices.json data/history.json data/bundle.js PROGRESS.md^[[0m
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1072382Z ^[[36;1mif [ -d data/snapshots ]; then git add data/snapshots; fi^[[0m
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1073865Z ^[[36;1mif ! git diff --cached --quiet; then^[[0m
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1076526Z ^[[36;1m  git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update verified weekly fuel prices'^[[0m
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1079355Z ^[[36;1m  git push^[[0m
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1080234Z ^[[36;1mfi^[[0m
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1122373Z shell: /usr/bin/bash -e {0}
+update-and-publish	Commit a new weekly snapshot if present	2026-09-07T05:03:47.1123381Z ##[endgroup]
+update-and-publish	Prepare static files	﻿2026-09-07T05:03:47.1582324Z ##[group]Run mkdir -p .site/data
+update-and-publish	Prepare static files	2026-09-07T05:03:47.1584485Z ^[[36;1mmkdir -p .site/data^[[0m
+update-and-publish	Prepare static files	2026-09-07T05:03:47.1586192Z ^[[36;1mcp index.html .site/^[[0m
+update-and-publish	Prepare static files	2026-09-07T05:03:47.1589173Z ^[[36;1mcp data/stations.json data/prices.json data/history.json data/bundle.js .site/data/^[[0m
+update-and-publish	Prepare static files	2026-09-07T05:03:47.1643179Z shell: /usr/bin/bash -e {0}
+update-and-publish	Prepare static files	2026-09-07T05:03:47.1644176Z ##[endgroup]
+update-and-publish	Run actions/configure-pages@v5	﻿2026-09-07T05:03:47.1923116Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+update-and-publish	Run actions/configure-pages@v5	2026-09-07T05:03:47.1927644Z ##[group]Run actions/configure-pages@v5
+update-and-publish	Run actions/configure-pages@v5	2026-09-07T05:03:47.1928977Z with:
+update-and-publish	Run actions/configure-pages@v5	2026-09-07T05:03:47.1938223Z   token: ***
+update-and-publish	Run actions/configure-pages@v5	2026-09-07T05:03:47.1939298Z   enablement: false
+update-and-publish	Run actions/configure-pages@v5	2026-09-07T05:03:47.1940155Z ##[endgroup]
+update-and-publish	Run actions/upload-pages-artifact@v3	﻿2026-09-07T05:03:47.5200124Z ##[group]Run actions/upload-pages-artifact@v3
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5201329Z with:
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5202122Z   path: .site
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5202974Z   name: github-pages
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5203845Z   retention-days: 1
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5204677Z env:
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5205440Z   GITHUB_PAGES: true
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5206299Z ##[endgroup]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5275247Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5326005Z ##[group]Run echo ::group::Archive artifact
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5327200Z ^[[36;1mecho ::group::Archive artifact^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5328262Z ^[[36;1mtar \^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5329342Z ^[[36;1m  --dereference --hard-dereference \^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5330530Z ^[[36;1m  --directory "$INPUT_PATH" \^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5331688Z ^[[36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5332848Z ^[[36;1m  --exclude=.git \^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5333850Z ^[[36;1m  --exclude=.github \^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5334858Z ^[[36;1m  .^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5335725Z ^[[36;1mecho ::endgroup::^[[0m
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5391332Z shell: /usr/bin/sh -e {0}
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5392282Z env:
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5393055Z   GITHUB_PAGES: true
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5393919Z   INPUT_PATH: .site
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5394760Z ##[endgroup]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5477982Z ##[group]Archive artifact
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5490089Z ./
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5490937Z ./data/
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5491860Z ./data/prices.json
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5492767Z ./data/bundle.js
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5499542Z ./data/history.json
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5500492Z ./data/stations.json
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5509835Z ./index.html
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5514051Z ##[endgroup]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5532245Z ##[end-action id=__actions_upload-pages-artifact.__run;outcome=success;conclusion=success;duration_ms=25]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5540535Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_2]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5554005Z ##[end-action id=__actions_upload-pages-artifact.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5561470Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_3]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5573118Z ##[end-action id=__actions_upload-pages-artifact.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5579882Z ##[start-action display=Upload artifact;id=__actions_upload-pages-artifact.upload-artifact]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5692371Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5696676Z ##[group]Run actions/upload-artifact@v4
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5697697Z with:
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5698456Z   name: github-pages
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5699669Z   path: /home/runner/work/_temp/artifact.tar
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5700786Z   retention-days: 1
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5701646Z   if-no-files-found: error
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5702776Z   compression-level: 6
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5703651Z   overwrite: false
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5704512Z   include-hidden-files: false
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5705439Z env:
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5706183Z   GITHUB_PAGES: true
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.5707019Z ##[endgroup]
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.7380913Z (node:2284) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.7385654Z (Use `node --trace-deprecation ...` to show where the warning was created)
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.7444759Z With the provided path, there will be 1 file uploaded
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.7447592Z Artifact name is valid!
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.7448910Z Root directory input is valid!
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:47.9916765Z Beginning upload of artifact content to blob storage
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.0670566Z (node:2284) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.3098996Z Uploaded bytes 469102
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.3427204Z Finished uploading artifact content to blob storage!
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.3428347Z SHA256 digest of uploaded artifact zip is 2c30ad1c3d803d0dde2e6e2650632120fc044999a6c262f72b8b78a5999bcb3a
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.3429913Z Finalizing artifact upload
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.5596989Z Artifact github-pages.zip successfully finalized. Artifact ID 10005013674
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.5598936Z Artifact github-pages has been successfully uploaded! Final size is 469102 bytes. Artifact ID is 10005013674
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.5605366Z Artifact download URL: https://github.com/jyb635050-ai/fuelwatch-ph/actions/runs/34085362680/artifacts/10005013674
+update-and-publish	Run actions/upload-pages-artifact@v3	2026-09-07T05:03:48.5736928Z ##[end-action id=__actions_upload-pages-artifact.upload-artifact;outcome=success;conclusion=success;duration_ms=1015]
+update-and-publish	Publish verified website	﻿2026-09-07T05:03:48.5819484Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5820938Z ##[group]Run actions/deploy-pages@v4
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5821232Z with:
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5823807Z   token: ***
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5824021Z   timeout: 600000
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5824240Z   error_count: 10
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5824468Z   reporting_interval: 5000
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5824734Z   artifact_name: github-pages
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5824988Z   preview: false
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5825192Z env:
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5825389Z   GITHUB_PAGES: true
+update-and-publish	Publish verified website	2026-09-07T05:03:48.5825608Z ##[endgroup]
+update-and-publish	Publish verified website	2026-09-07T05:03:48.7641174Z (node:2296) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+update-and-publish	Publish verified website	2026-09-07T05:03:48.7642148Z (Use `node --trace-deprecation ...` to show where the warning was created)
+update-and-publish	Publish verified website	2026-09-07T05:03:48.9017226Z Fetching artifact metadata for "github-pages" in this workflow run
+update-and-publish	Publish verified website	2026-09-07T05:03:49.0208026Z Found 1 artifact(s)
+update-and-publish	Publish verified website	2026-09-07T05:03:49.0221943Z Creating Pages deployment with payload:
+update-and-publish	Publish verified website	2026-09-07T05:03:49.0222637Z {
+update-and-publish	Publish verified website	2026-09-07T05:03:49.0223125Z 	"artifact_id": 10005013674,
+update-and-publish	Publish verified website	2026-09-07T05:03:49.0223952Z 	"pages_build_version": "0f3c2ec98b43260a6ecc50d5d2fab56a49c2f7b6",
+update-and-publish	Publish verified website	2026-09-07T05:03:49.0291637Z 	"oidc_token": "***"
+update-and-publish	Publish verified website	2026-09-07T05:03:49.0292200Z }
+update-and-publish	Publish verified website	2026-09-07T05:03:49.3052480Z Created deployment for 0f3c2ec98b43260a6ecc50d5d2fab56a49c2f7b6, ID: 0f3c2ec98b43260a6ecc50d5d2fab56a49c2f7b6
+update-and-publish	Publish verified website	2026-09-07T05:03:54.3078372Z Getting Pages deployment status...
+update-and-publish	Publish verified website	2026-09-07T05:03:54.4362559Z Reported success!
+update-and-publish	Post Run actions/setup-node@v4	﻿2026-09-07T05:03:54.4608024Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+update-and-publish	Post Run actions/setup-node@v4	2026-09-07T05:03:54.4609784Z Post job cleanup.
+update-and-publish	Post Run actions/setup-node@v4	2026-09-07T05:03:54.5850888Z (node:2308) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+update-and-publish	Post Run actions/setup-node@v4	2026-09-07T05:03:54.5851825Z (Use `node --trace-deprecation ...` to show where the warning was created)
+update-and-publish	Post Run actions/checkout@v4	﻿2026-09-07T05:03:54.5987053Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.5988343Z Post job cleanup.
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.6863629Z [command]/usr/bin/git version
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.6906794Z git version 2.55.0
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.6947314Z Temporarily overriding HOME='/home/runner/work/_temp/e1064a3e-0921-4cb9-911b-465217f15359' before making global git config changes
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.6949355Z Adding repository directory to the temporary git global config as a safe directory
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.6952791Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/fuelwatch-ph/fuelwatch-ph
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.6992917Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.7032558Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.7279654Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.7313140Z http.https://github.com/.extraheader
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.7326711Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.7369975Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.7631085Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+update-and-publish	Post Run actions/checkout@v4	2026-09-07T05:03:54.7687857Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+update-and-publish	Complete job	﻿2026-09-07T05:03:54.8081813Z Evaluate and set environment url
+update-and-publish	Complete job	2026-09-07T05:03:54.8086741Z Evaluated environment url: https://jyb635050-ai.github.io/fuelwatch-ph/
+update-and-publish	Complete job	2026-09-07T05:03:54.8088310Z Cleaning up orphan processes
+update-and-publish	Complete job	2026-09-07T05:03:54.8385972Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/configure-pages@v5, actions/deploy-pages@v4, actions/setup-node@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

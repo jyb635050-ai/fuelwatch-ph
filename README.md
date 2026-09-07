@@ -44,3 +44,15 @@ Public source excerpt: docs/source-evidence.md. Full HTML/text evidence is local
 Final renderer clarification: the installed MapLibre clustering path failed to draw clusters in browser verification. Clustering is therefore restricted to zoom 0 (outside the app's zoom range); all visible levels use GPU/WebGL circle layers, which the brief explicitly permits. Actual rendered-feature verification counts 10,842 nationwide points. There are no individual DOM markers. Cluster-count language in earlier notes describes the initial implementation, not the final visible rendering.
 
 The final clusterMaxZoom is 1 (the library treats zero as a default). This remains below minZoom=3, so visible rendering is entirely WebGL circles.
+
+## Weekly automation (added 2026-09-07)
+
+GitHub Actions workflow `.github/workflows/weekly-prices.yml` runs in the cloud every Tuesday and Wednesday at **10:17 and 18:17 Philippines time (UTC+8)**. Wednesday and evening runs catch late publication. GitHub can delay scheduled runs; these are intended start times. The computer does not need to remain on. The workflow also supports Run workflow on the Actions page.
+
+`tools/update_weekly.mjs` checks the source's dated Metro Manila snapshot against the current Philippine Tuesday-based week, cross-checks the table date, requires at least 15 verified rows, and refuses stale, ambiguous or incomplete source data. Repeated runs in the same week do not replace the already recorded snapshot. A new week preserves all history, creates an immutable `data/snapshots/YYYY-MM-DD.json`, updates prices and the double-click bundle, runs the frozen acceptance and publishes Pages. Local backups are excluded from Git; previous production data also remains in Git history. No deployment happens if fetch, parsing, tests or acceptance fail.
+
+The parser currently supports the 9-brand diesel/RON91 public table (18 rows). It does not infer RON95; unsupported grades disappear from the new week's table rather than carrying forward old data. Existing launch-week Shell RON95 remains in that week's historical snapshot. The homepage change panel now compares matching brand/region/fuel references from adjacent weeks, not hard-coded launch-week announcements. History stays factual.
+
+Manual check: `node tools/update_weekly.mjs --check`. Manual update: `node tools/update_weekly.mjs`, followed by acceptance and commit/push; cloud workflow performs these automatically and deploys directly. Regression tests: `node tools/test_weekly_verified.mjs`.
+
+Earlier statements that automation was unconfigured describe the initial delivery and are superseded by this section. Price coverage remains NCR-only. Source format/date changes intentionally block an update for review, never invent replacement values.
