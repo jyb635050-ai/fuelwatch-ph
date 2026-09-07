@@ -43,3 +43,5 @@ if(map){map.once('load',()=>{const layers=map.getStyle().layers.filter(l=>l.sour
 // v5.6.2 treats zero as the default max zoom; 1 is below the app minZoom of 3.
 if(map)map.once('load',()=>map.getSource('stations').setClusterOptions({clusterMaxZoom:1}));
 </script>
+<style>@media(max-width:640px){.brands{grid-template-columns:minmax(0,1fr)}.brand{min-width:0}.brand b{font-size:14px}.maplibregl-popup{max-width:calc(100vw - 64px)!important}}</style>
+<script>if(map)map.on('resize',()=>{if(popup)popup.remove();});</script>

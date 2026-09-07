@@ -11,3 +11,5 @@ Frozen SHA256 (working file and Git blob):
 cabd0d72a74f79132c7a4d537595d0cf31447407ed0fe92188203969551a90a9
 
 Limits: 19 prices, NCR only, 9 brands for diesel/RON91 plus Shell RON95. Every other region/unsupported brand/grade or unclear city is unpriced. One genuine weekly snapshot; no fabricated curves. Automatic weekly refresh/accumulation is not configured, documented in BLOCKED.md. Expired weekly map prices are hidden. Negative source test was run against a separate deliberately corrupted fixture to preserve production data under the no-overwrite instruction. Cartoon appearance is supplied for the requested human screenshot review; no human approval is claimed.
+
+Final mobile correction: visual review found clipping inside two-column brand rows despite zero document overflow. Mobile now uses one column; tools/mobile_verify.mjs confirms brand_row_clipping=0. The final phone image is mobile-final-fixed.png. Resizing closes an old popup to prevent stale popup positioning.

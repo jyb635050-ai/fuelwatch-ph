@@ -40,3 +40,5 @@ page 验收通过。卡通 SVG 油滴、粗描边、圆角与绿红价格编码�
 
 轮次 10：线上最终验收通过。rendered=10842，features=10842，priced=403；交互/手机/零脚本异常通过。home-final.png 与 map-final.png 已逐图查看，底图完整、声明/日期/来源可见。
 轮次 11：交付收尾。已汇总 docs/handoff.md、acceptance-evidence.txt、browser-results-online.json 和 BLOCKED.md，最终截图随仓库提交。每周自动更新未做、缺价范围、负向副本测试偏差均如实披露。
+
+轮次 12（最后一轮）：手机截图肉眼发现品牌双列裁切，文档级 overflow=0 未覆盖内部裁切。追加单列布局和 resize 关闭旧弹窗，新增局部边界检查。按 12 轮上限收尾；自动周更/全国价格缺口仍 BLOCKED。
