@@ -1,0 +1,10 @@
+node_modules/
+docs/qa-profile/
+docs/qa-temp/
+docs/downloads/
+
+docs/gaswatch-source.html
+docs/gaswatch-readable.txt
+docs/home.png
+docs/map.png
+docs/mobile.png
