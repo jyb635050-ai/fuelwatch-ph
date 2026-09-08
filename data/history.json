@@ -158,6 +158,157 @@
       ],
       "reconstructed": false,
       "collected_at": "2026-09-07"
+    },
+    {
+      "as_of": "2026-09-08",
+      "rows": [
+        {
+          "brand": "Caltex",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 95.29,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Caltex",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 84.06,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Flying V",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 88.67,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Flying V",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 76.36,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Petron",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 92.09,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Petron",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 81.27,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Phoenix",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 96.09,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Phoenix",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 88.54,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "PTT",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 88.25,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "PTT",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 79.29,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Seaoil",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 92.07,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Seaoil",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 80.54,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Shell",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 93.53,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Shell",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 83.18,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "TotalEnergies",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 92.41,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "TotalEnergies",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 83.5,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Unioil",
+          "region": "NCR",
+          "fuel": "diesel",
+          "price": 91.35,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        },
+        {
+          "brand": "Unioil",
+          "region": "NCR",
+          "fuel": "ron91",
+          "price": 79.91,
+          "source_url": "https://gaswatchph.com/",
+          "as_of": "2026-09-08"
+        }
+      ],
+      "reconstructed": false,
+      "collected_at": "2026-09-08"
     }
   ]
 }

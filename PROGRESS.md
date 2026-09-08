@@ -50,3 +50,5 @@ page 验收通过。卡通 SVG 油滴、粗描边、圆角与绿红价格编码�
 周更新任务 3：workflow 已成功推送，无权限阻断。定向修正新增测试的输入隔离，改用固定真实来源夹具，不依赖以后变化的生产价格表，避免第二周测试误报。
 
 周更新任务 4 完成：云端 run 34085362680 全部 success，本周 NO_CHANGE 保留19行；真实输出存 docs/weekly-first-run.log。冻结 SHA256 保持原值。定时为菲律宾周二/三10:17和18:17，网站发布已通过；旧周/坏来源失败不会上线。README 与 BLOCKED 已追加最终状态。
+
+Automatic price update 2026-09-08T07:15:38.985Z: source=https://gaswatchph.com/, week=2026-09-08, rows=18; prior snapshot retained; frozen acceptance passed.
