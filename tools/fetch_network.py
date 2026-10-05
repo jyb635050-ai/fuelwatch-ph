@@ -28,7 +28,7 @@ class Tree(HTMLParser):
   if not any(n.tag in {'script','style'} for n in self.stack):self.stack[-1].children.append(data)
 def norm(s):return re.sub(r'\s+',' ',s).strip()
 def fetch(url):
- body=subprocess.check_output(['curl.exe' if os.name=='nt' else 'curl','-f','-sS','-L','--retry','1','--max-time','30',url],stderr=subprocess.PIPE).decode('utf8','replace')
+ body=subprocess.check_output(['curl.exe' if os.name=='nt' else 'curl','-f','-sS','-L','--user-agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36','--retry','1','--max-time','30',url],stderr=subprocess.PIPE).decode('utf8','replace')
  return Tree(body).root
 def row(provider,plan,service,price,period,url,**extra):
  assert price>0
