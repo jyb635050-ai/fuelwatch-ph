@@ -70,3 +70,6 @@ Automatic price update 2026-09-29T08:33:35.188Z: source=https://gaswatchph.com/,
 升级任务 5：真实云端run 37261777774 success，采集三类官方数字、四类用途校验、冻结验收及Pages发布全部成功。gh workflow list显示Official utility monitoring和Weekly verified fuel prices均active。线上curl HTTP/1.1 200 OK。最终本地截图已逐图看过：完整底图、10842站点、四板块日期/历史/无数据标识明确。
 
 升级任务 6完成：线上真实网址浏览器复验通过 rendered=10842/source=10842；品牌清空/全选保留缓存、搜索PTT、四类监控、天然气留空、手机无横向溢出、脚本errors=[]。线上手机截图已肉眼确认。交付截图docs/upgrade-online-fuel.png与upgrade-online-utilities.png，日志/红绿证据及BLOCKED一并提交；docs/acceptance.mjs SHA256仍与冻结值完全相同。
+
+品牌任务1完成：已选Presyo PH（价格），覆盖燃油及生活公用费用；蓝色圆角价格标签+比索符号SVG用于页头与favicon。浏览器标题/说明/主题色同步更新，两条自动发布流程包含图标。既有网址与数据标识保持兼容。
+品牌任务2完成：本地浏览器标题与页头为Presyo PH，SVG图标正确，四监控板块仍在；手机无横向溢出。已查看截图，蓝白价格标签在42px页头清晰。冻结验收all仍绿、SHA256未变。

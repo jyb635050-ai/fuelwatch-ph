@@ -1,4 +1,4 @@
-# FuelWatch PH
+# Presyo PH
 
 A small, static Philippine fuel map. 10,842 OpenStreetMap stations, clustered for mobile performance. Open index.html directly while online, or visit GitHub Pages. No build tools, backend, account, API key or paid services.
 
@@ -72,3 +72,7 @@ Official sources:
 The cloud workflow `utility-monitor.yml` checks these sources daily at **04:35 Philippines time**, subject to GitHub scheduler delays. Check dates never replace price dates. Source failures retain previous observations with a visible failure state; dated snapshots are retained. This checks published references, not live meters or individual shop contracts. The existing fuel workflow keeps its weekly Tuesday/Wednesday schedule. Both workflows deploy the complete upgraded client and share a deployment lock.
 
 Additional validation: `node tools/validate_utilities.mjs`; browser evidence is in `docs/upgrade-final-browser-results.json`. Frozen original acceptance remains unchanged.
+
+
+## Brand (2026-10-05)
+Presyo PH now names the fuel and utility reference tool. Presyo means price in Filipino. A blue rounded price tag with a peso symbol is used for the header and browser favicon. The repository and Pages URL are retained for existing visitors.

@@ -41,7 +41,7 @@ jobs:
       - name: Prepare complete static client
         run: |
           mkdir -p .site/data
-          cp index.html upgrade.css upgrade.js .site/
+          cp index.html upgrade.css upgrade.js presyo-icon.svg .site/
           cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json .site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

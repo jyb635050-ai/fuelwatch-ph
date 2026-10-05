@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Presyo PH price tag">
+  <rect width="64" height="64" rx="18" fill="#195fab"/>
+  <path d="M18 16h17l15 16-15 16H18a4 4 0 0 1-4-4V20a4 4 0 0 1 4-4Z" fill="#fff"/>
+  <circle cx="20" cy="23" r="2" fill="#195fab"/>
+  <path d="M27 24v17m0-17h5a5 5 0 0 1 0 10h-5m-3-6h14m-14 4h14" fill="none" stroke="#195fab" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
