@@ -1,4 +1,4 @@
-# Presyo PH
+# 各种能源价格网站
 
 A small, static Philippine fuel map. 10,842 OpenStreetMap stations, clustered for mobile performance. Open index.html directly while online, or visit GitHub Pages. No build tools, backend, account, API key or paid services.
 
@@ -76,3 +76,11 @@ Additional validation: `node tools/validate_utilities.mjs`; browser evidence is 
 
 ## Brand (2026-10-05)
 Presyo PH now names the fuel and utility reference tool. Presyo means price in Filipino. A blue rounded price tag with a peso symbol is used for the header and browser favicon. The repository and Pages URL are retained for existing visitors.
+
+
+## Energy and network prices update (2026-10-05)
+The user-specified title is now 各种能源价格网站. The empty natural-gas category is removed from current data and navigation; original historical snapshots remain factual archives.
+
+Broadband and mobile data offers are separate views, grouped by the original billing period. Provider and billing-period filters, maximum speed/data allocation, collection date, source links and eligibility/contract/setup-cost notes accompany each offer. No daily/weekly offer is multiplied into an invented monthly tariff. Current collection covers 19 explicit offers from five supplier product pages: PLDT Home Internet, Globe GFiber Prepaid, Converge Super FiberX, Smart POWER ALL 99 and standard DITO Level-Up packs. This is a selection, not every supplier or offer. Supplier checkout/app/address confirmation remains necessary.
+
+`tools/fetch_network.py` is part of the existing daily 04:35 Philippine-time cloud check and needs only Python standard library plus curl. Product pages without effective dates are recorded as observed, not newly effective tariffs. Parser/fetch failures retain original observed dates and show a failure status. `node tools/validate_network.mjs` validates sources, periods, parameters and dates. Both the weekly fuel and daily utility workflows include all network UI and data files when deploying. The original frozen acceptance is unchanged.

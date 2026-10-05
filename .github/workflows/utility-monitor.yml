@@ -26,14 +26,17 @@ jobs:
       - name: Install PDF reader inside this project only
         run: python -m pip install --target .utility-deps pypdf==6.10.0
       - name: Collect dated official references and explicit source failures
-        run: python tools/fetch_utilities.py
+        run: |
+          python tools/fetch_utilities.py
+          python tools/fetch_network.py
       - name: Validate original frozen acceptance
         run: |
           node tools/validate_utilities.mjs
+          node tools/validate_network.mjs
           node docs/acceptance.mjs all
       - name: Retain observed source history
         run: |
-          git add data/utility-prices.json data/utility-bundle.js data/utility-snapshots
+          git add data/utility-prices.json data/utility-bundle.js data/utility-snapshots data/network-prices.json data/network-bundle.js data/network-snapshots
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Monitor dated official utility references'
             git push
@@ -41,8 +44,8 @@ jobs:
       - name: Prepare complete static client
         run: |
           mkdir -p .site/data
-          cp index.html upgrade.css upgrade.js presyo-icon.svg .site/
-          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json .site/data/
+          cp index.html upgrade.css upgrade.js network.css network.js presyo-icon.svg .site/
+          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json data/network-bundle.js data/network-prices.json .site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

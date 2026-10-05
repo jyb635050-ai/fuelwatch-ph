@@ -60,15 +60,6 @@
       ],
       "status": "historical",
       "message": "DOE surveyed NCR household 11 kg LPG cylinders; price range, not a quote from an individual shop. Delivery/deposit may differ."
-    },
-    {
-      "id": "natural-gas",
-      "title": "Natural gas",
-      "source_url": "https://doe.gov.ph/oil-industry-management-bureau-s-year-end-comprehensive-report-fy2025",
-      "checked_at": "2026-10-05",
-      "observations": [],
-      "status": "unavailable",
-      "message": "No verified public shop-level natural-gas retail tariff found. LPG and LNG prices are not substituted."
     }
   ]
 }

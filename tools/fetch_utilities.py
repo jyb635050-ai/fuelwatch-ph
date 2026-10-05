@@ -18,8 +18,6 @@ def base(id,title,url):return {'id':id,'title':title,'source_url':url,'checked_a
 water=base('water','Water','https://www.mayniladwater.com.ph/press-releases/')
 electric=base('electricity','Electricity','https://company.meralco.com.ph/node/15339')
 lpg=base('lpg','LPG / bottled gas','https://doe.gov.ph/data-and-prices/lpg-monitor/ncr-lpg-prices')
-ng=base('natural-gas','Natural gas','https://doe.gov.ph/oil-industry-management-bureau-s-year-end-comprehensive-report-fy2025')
-ng['message']='No verified public shop-level natural-gas retail tariff found. LPG and LNG prices are not substituted.'
 def run(category,fn):
     try:fn(category)
     except Exception as e:
@@ -86,8 +84,7 @@ def scrape_lpg(c):
     c.update(status='historical' if end<DAY else 'reference',source_url=url,message='DOE surveyed NCR household 11 kg LPG cylinders; price range, not a quote from an individual shop. Delivery/deposit may differ.')
     c['observations']=[{'provider':'DOE NCR survey','region':'NCR','min':lo,'max':hi,'common':common,'unit':'PHP / 11 kg cylinder','as_of':asof,'period_end':end,'scope':'Household 11 kg LPG survey; not natural gas','source_url':url}]
 run(water,scrape_water);run(electric,scrape_electric);run(lpg,scrape_lpg)
-run(ng,lambda c:get(c['source_url']))
-result={'checked_at':DAY,'categories':[water,electric,lpg,ng]}
+result={'checked_at':DAY,'categories':[water,electric,lpg]}
 Path('data/utility-prices.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n','utf-8')
 Path('data/utility-bundle.js').write_text('window.FUELWATCH_UTILITIES='+json.dumps(result,ensure_ascii=False).replace('<','\\u003c')+';\n','utf-8')
 Path('data/utility-snapshots').mkdir(exist_ok=True)
