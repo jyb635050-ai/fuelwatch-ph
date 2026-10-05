@@ -367,7 +367,7 @@
       "source_url": "https://www.convergeict.com/super-fiberx",
       "checked_at": "2026-10-05",
       "status": "fetch-failed",
-      "error": "Command '['curl', '-f', '-sS', '-L', '--retry', '1', '--max-time', '30', 'https://www.convergeict.com/super-fiberx']' returned non-zero exit status 22."
+      "error": "Command '['curl', '-f', '-sS', '-L', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36', '--retry', '1', '--max-time', '3"
     },
     {
       "provider": "Smart",
