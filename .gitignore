@@ -13,3 +13,7 @@ docs/maplibre-diagnostic.js
 
 data/update-backups/
 .site/
+
+work/
+.utility-deps/
+__pycache__/

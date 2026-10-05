@@ -9,7 +9,7 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: weekly-fuel-prices
+  group: fuelwatch-pages
   cancel-in-progress: false
 jobs:
   update-and-publish:
@@ -40,8 +40,8 @@ jobs:
       - name: Prepare static files
         run: |
           mkdir -p .site/data
-          cp index.html .site/
-          cp data/stations.json data/prices.json data/history.json data/bundle.js .site/data/
+          cp index.html upgrade.css upgrade.js .site/
+          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json .site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

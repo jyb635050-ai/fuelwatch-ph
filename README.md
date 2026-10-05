@@ -56,3 +56,19 @@ The parser currently supports the 9-brand diesel/RON91 public table (18 rows). I
 Manual check: `node tools/update_weekly.mjs --check`. Manual update: `node tools/update_weekly.mjs`, followed by acceptance and commit/push; cloud workflow performs these automatically and deploys directly. Regression tests: `node tools/test_weekly_verified.mjs`.
 
 Earlier statements that automation was unconfigured describe the initial delivery and are superseded by this section. Price coverage remains NCR-only. Source format/date changes intentionally block an update for review, never invent replacement values.
+
+## Official utilities and upgraded client (2026-10-05)
+
+The client now has a fuel map, utility overview, and separate Water, Electricity, LPG and Natural gas views. It remains plain HTML/CSS/JavaScript, works via double-click, and uses no backend or build tool. Frosted glass surfaces, responsive panels, keyboard focus and reduced-motion support implement the requested visual direction. Brand search and cached GPU filtering avoid rebuilding and retransferring all 10,842 map points on brand changes. GitHub Pages has no user-controlled CPU to upgrade; these changes reduce client work instead.
+
+Official collection uses `tools/fetch_utilities.py`. Each observation retains provider, area, tariff class, original date and clickable source. Current coverage is limited: Maynilad West Zone average basic charge, Meralco residential reference, and DOE NCR household 11 kg LPG survey. None is represented as an actual shop bill. The September electricity/LPG observations are explicitly historical. Natural-gas retail prices remain blank; LPG and LNG are never substituted. See BLOCKED.md.
+
+Official sources:
+- Maynilad dated FCDA notices: https://www.mayniladwater.com.ph/notice-to-maynilad-customers-foreign-currency-differential-adjustment-fcda-effective-october-1-2026/
+- Meralco official rate PDF: https://meralcomain.s3.ap-southeast-1.amazonaws.com/2026-09/english_press_release-_meralco_september_2026_rates.pdf
+- DOE NCR LPG index: https://doe.gov.ph/data-and-prices/lpg-monitor/ncr-lpg-prices
+- DOE oil industry report (no verified natural-gas retail tariff): https://doe.gov.ph/oil-industry-management-bureau-s-year-end-comprehensive-report-fy2025
+
+The cloud workflow `utility-monitor.yml` checks these sources daily at **04:35 Philippines time**, subject to GitHub scheduler delays. Check dates never replace price dates. Source failures retain previous observations with a visible failure state; dated snapshots are retained. This checks published references, not live meters or individual shop contracts. The existing fuel workflow keeps its weekly Tuesday/Wednesday schedule. Both workflows deploy the complete upgraded client and share a deployment lock.
+
+Additional validation: `node tools/validate_utilities.mjs`; browser evidence is in `docs/upgrade-final-browser-results.json`. Frozen original acceptance remains unchanged.

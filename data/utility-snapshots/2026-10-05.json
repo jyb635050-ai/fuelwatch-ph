@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-10-05",
+  "categories": [
+    {
+      "id": "water",
+      "title": "Water",
+      "source_url": "https://www.mayniladwater.com.ph/notice-to-maynilad-customers-foreign-currency-differential-adjustment-fcda-effective-october-1-2026/",
+      "checked_at": "2026-10-05",
+      "observations": [
+        {
+          "provider": "Maynilad",
+          "region": "Greater Manila West Zone",
+          "value": 52.86,
+          "unit": "PHP/m³",
+          "as_of": "2026-10-01",
+          "scope": "Average basic charge in dated FCDA notice; excludes bill-specific additions",
+          "source_url": "https://www.mayniladwater.com.ph/notice-to-maynilad-customers-foreign-currency-differential-adjustment-fcda-effective-october-1-2026/"
+        }
+      ],
+      "status": "reference",
+      "message": "Maynilad average basic charge; not a shop tariff or final bill. Consumption bands, FCDA, environmental/sewerage charges and taxes affect the bill."
+    },
+    {
+      "id": "electricity",
+      "title": "Electricity",
+      "source_url": "https://meralcomain.s3.ap-southeast-1.amazonaws.com/2026-09/english_press_release-_meralco_september_2026_rates.pdf",
+      "checked_at": "2026-10-05",
+      "observations": [
+        {
+          "provider": "Meralco",
+          "region": "Meralco service area",
+          "value": 14.7424,
+          "unit": "PHP/kWh",
+          "as_of": "2026-09-11",
+          "scope": "Typical residential overall rate; business tariff unverified",
+          "source_url": "https://meralcomain.s3.ap-southeast-1.amazonaws.com/2026-09/english_press_release-_meralco_september_2026_rates.pdf"
+        }
+      ],
+      "status": "historical",
+      "message": "Typical residential household reference, NOT the commercial rate for a shop. Business contracts, demand and bill components differ."
+    },
+    {
+      "id": "lpg",
+      "title": "LPG / bottled gas",
+      "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20September%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia",
+      "checked_at": "2026-10-05",
+      "observations": [
+        {
+          "provider": "DOE NCR survey",
+          "region": "NCR",
+          "min": 1025.0,
+          "max": 1535.0,
+          "common": 1341.0,
+          "unit": "PHP / 11 kg cylinder",
+          "as_of": "2026-09-01",
+          "period_end": "2026-09-07",
+          "scope": "Household 11 kg LPG survey; not natural gas",
+          "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20September%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia"
+        }
+      ],
+      "status": "historical",
+      "message": "DOE surveyed NCR household 11 kg LPG cylinders; price range, not a quote from an individual shop. Delivery/deposit may differ."
+    },
+    {
+      "id": "natural-gas",
+      "title": "Natural gas",
+      "source_url": "https://doe.gov.ph/oil-industry-management-bureau-s-year-end-comprehensive-report-fy2025",
+      "checked_at": "2026-10-05",
+      "observations": [],
+      "status": "unavailable",
+      "message": "No verified public shop-level natural-gas retail tariff found. LPG and LNG prices are not substituted."
+    }
+  ]
+}

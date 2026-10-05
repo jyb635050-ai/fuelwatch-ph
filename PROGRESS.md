@@ -58,3 +58,11 @@ Automatic price update 2026-09-15T07:46:52.641Z: source=https://gaswatchph.com/,
 Automatic price update 2026-09-22T07:44:08.179Z: source=https://gaswatchph.com/, week=2026-09-22, rows=18; prior snapshot retained; frozen acceptance passed.
 
 Automatic price update 2026-09-29T08:33:35.188Z: source=https://gaswatchph.com/, week=2026-09-29, rows=18; prior snapshot retained; frozen acceptance passed.
+
+2026-10-05 升级 1：同步云端至714e009并在work/upgrade-oct05/pre-upgrade.zip保留升级前版本。新请求覆盖原卡通视觉选择；冻结验收不动。官网抓取器与四类结构已创建，所有数字附单位/口径/日期。
+
+2026-10-05 升级 2：Apple风格磨砂控制层、可键盘操作导航、四类来源详情/独立单位、历史状态、品牌搜索、减少动态效果支持已实现。地图按油品缓存features，品牌变更只改GPU筛选，并合并连续点击到下一动画帧。
+
+2026-10-05 升级 3：每日04:35菲律宾时间官网监测流程已创建，与燃油周更共享发布互斥组；两条部署都带新客户端文件。水价官方WordPress公开接口发现公告已核实，避免404列表页。天然气仍无数据。逐日留实际来源快照；失败保留原日期。
+
+升级任务 4：每日官网采集 workflow 已写好，菲律宾04:35，保留观察日期/采集日期和失败标记；每周油价部署同时带上新客户端，统一部署锁。独立utilities校验通过：四类、官方域名、日期、用途和天然气留空。等待真实云端运行后确认上线。

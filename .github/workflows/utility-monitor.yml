@@ -1,0 +1,52 @@
+name: Official utility monitoring
+on:
+  schedule:
+    # Daily 04:35 Philippine time. Source prices retain their original effective dates.
+    - cron: '35 20 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: fuelwatch-pages
+  cancel-in-progress: false
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install PDF reader inside this project only
+        run: python -m pip install --target .utility-deps pypdf==6.10.0
+      - name: Collect dated official references and explicit source failures
+        run: python tools/fetch_utilities.py
+      - name: Validate original frozen acceptance
+        run: |
+          node tools/validate_utilities.mjs
+          node docs/acceptance.mjs all
+      - name: Retain observed source history
+        run: |
+          git add data/utility-prices.json data/utility-bundle.js data/utility-snapshots
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Monitor dated official utility references'
+            git push
+          fi
+      - name: Prepare complete static client
+        run: |
+          mkdir -p .site/data
+          cp index.html upgrade.css upgrade.js .site/
+          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json .site/data/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .site
+      - name: Publish complete client
+        id: deployment
+        uses: actions/deploy-pages@v4
