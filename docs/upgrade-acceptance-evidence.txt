@@ -1,0 +1,19 @@
+2026-10-05 official utilities upgrade evidence
+node docs/acceptance.mjs prices docs/upgrade-negative-prices.json
+FAIL prices: source_url must start with http
+NEGATIVE_EXIT=1
+node docs/acceptance.mjs all
+PASS stations: total=10842 >=10500; missing_coordinates=0; brands=40 <=40; no case variants
+PASS prices: rows=18 >=15; source_url=http; as_of=2026-09-29 within 21 days; duplicates=0 (data/prices.json)
+PASS page: openfreemap; clustered stations; no Marker; 非该站实测; dated history
+POSITIVE_EXIT=0
+node tools/validate_utilities.mjs
+PASS utilities: 4 separate categories; official source hosts; dated observations; tariff classes explicit; natural gas blank
+node tools/test_weekly_verified.mjs
+PASS weekly: 18 real rows; stale date rejected; inconsistent dates rejected; incomplete table rejected; same-week idempotent; history preserved; missing grade not carried forward; Manila week boundary
+(Get-FileHash docs/acceptance.mjs -Algorithm SHA256).Hash
+CABD0D72A74F79132C7A4D537595D0CF31447407ED0FE92188203969551A90A9
+Cloud run https://github.com/jyb635050-ai/fuelwatch-ph/actions/runs/37261777774
+status=completed conclusion=success
+curl.exe -sI https://jyb635050-ai.github.io/fuelwatch-ph/
+HTTP/1.1 200 OK

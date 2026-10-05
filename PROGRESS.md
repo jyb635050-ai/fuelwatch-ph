@@ -66,3 +66,7 @@ Automatic price update 2026-09-29T08:33:35.188Z: source=https://gaswatchph.com/,
 2026-10-05 升级 3：每日04:35菲律宾时间官网监测流程已创建，与燃油周更共享发布互斥组；两条部署都带新客户端文件。水价官方WordPress公开接口发现公告已核实，避免404列表页。天然气仍无数据。逐日留实际来源快照；失败保留原日期。
 
 升级任务 4：每日官网采集 workflow 已写好，菲律宾04:35，保留观察日期/采集日期和失败标记；每周油价部署同时带上新客户端，统一部署锁。独立utilities校验通过：四类、官方域名、日期、用途和天然气留空。等待真实云端运行后确认上线。
+
+升级任务 5：真实云端run 37261777774 success，采集三类官方数字、四类用途校验、冻结验收及Pages发布全部成功。gh workflow list显示Official utility monitoring和Weekly verified fuel prices均active。线上curl HTTP/1.1 200 OK。最终本地截图已逐图看过：完整底图、10842站点、四板块日期/历史/无数据标识明确。
+
+升级任务 6完成：线上真实网址浏览器复验通过 rendered=10842/source=10842；品牌清空/全选保留缓存、搜索PTT、四类监控、天然气留空、手机无横向溢出、脚本errors=[]。线上手机截图已肉眼确认。交付截图docs/upgrade-online-fuel.png与upgrade-online-utilities.png，日志/红绿证据及BLOCKED一并提交；docs/acceptance.mjs SHA256仍与冻结值完全相同。
