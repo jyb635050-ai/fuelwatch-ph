@@ -73,3 +73,4 @@ Automatic price update 2026-09-29T08:33:35.188Z: source=https://gaswatchph.com/,
 
 品牌任务1完成：已选Presyo PH（价格），覆盖燃油及生活公用费用；蓝色圆角价格标签+比索符号SVG用于页头与favicon。浏览器标题/说明/主题色同步更新，两条自动发布流程包含图标。既有网址与数据标识保持兼容。
 品牌任务2完成：本地浏览器标题与页头为Presyo PH，SVG图标正确，四监控板块仍在；手机无横向溢出。已查看截图，蓝白价格标签在42px页头清晰。冻结验收all仍绿、SHA256未变。
+品牌任务3完成：云端run 37264190478 success，实际线上浏览器标题/页头/icon全部为Presyo PH；faviconHTTP=200、mobileOverflow=false、四监控板块保留。最终截图docs/presyo-online-header.png、presyo-online.png和presyo-online-mobile.png。名称升级已上线，网址保持原地址。

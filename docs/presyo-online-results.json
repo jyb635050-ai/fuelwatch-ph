@@ -1,0 +1,10 @@
+{
+  "title": "Presyo PH · Fuel & everyday utility prices",
+  "header": "Presyo PH",
+  "icon": "presyo-icon.svg",
+  "logoLabel": "Presyo PH price tag",
+  "utilityCards": 4,
+  "faviconHTTP": 200,
+  "mobileOverflow": false,
+  "errors": []
+}
