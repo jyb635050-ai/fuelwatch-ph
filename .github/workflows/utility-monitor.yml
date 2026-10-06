@@ -29,14 +29,17 @@ jobs:
         run: |
           python tools/fetch_utilities.py
           python tools/fetch_network.py
+          python tools/merge_researched_network.py
+          python tools/build_provider_bundle.py
       - name: Validate original frozen acceptance
         run: |
           node tools/validate_utilities.mjs
           node tools/validate_network.mjs
+          node tools/validate_providers.mjs
           node docs/acceptance.mjs all
       - name: Retain observed source history
         run: |
-          git add data/utility-prices.json data/utility-bundle.js data/utility-snapshots data/network-prices.json data/network-bundle.js data/network-snapshots
+          git add data/utility-prices.json data/utility-bundle.js data/utility-snapshots data/network-prices.json data/network-bundle.js data/network-snapshots data/provider-prices.json data/provider-bundle.js
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Monitor dated official utility references'
             git push
@@ -44,8 +47,8 @@ jobs:
       - name: Prepare complete static client
         run: |
           mkdir -p .site/data
-          cp index.html upgrade.css upgrade.js network.css network.js presyo-icon.svg .site/
-          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json data/network-bundle.js data/network-prices.json .site/data/
+          cp index.html upgrade.css upgrade.js network.css network.js suppliers.css suppliers.js presyo-icon.svg .site/
+          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json data/network-bundle.js data/network-prices.json data/provider-bundle.js data/provider-prices.json .site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -42,3 +42,10 @@
 
 - 网络首次云端采集37266043025：Globe/Smart/DITO成功；PLDT比较表未读取、Converge HTTP失败。保留本地官网实读的原日期/价格并标fetch-failed。尝试普通浏览器请求头兼容性；未绕过登录或编造数值。
 - 网络第二次云端采集37266214067：兼容请求头后PLDT/Converge仍无法读取，Globe/Smart/DITO成功。两家按原采集日期保留19行中的9行并展示抓取失败；不能承诺两家自动更新成功。无需新增后台或第三方付费服务。
+
+## 2026-10-06 全国供应商补充调研
+用户授权各组并行调研，新增水务、电力和覆盖审计三组，仅记录官网实证。升级前页面已备份work/providers-oct06；冻结docs/acceptance.mjs不修改。各服务区、住宅/商业、最低月费/阶梯单价须分开，未证明的生效日/数字留空；不能宣称全国已经齐全。
+
+供应商调研缺口：水务Metro Cebu、Davao、Baguio、Bacolod、Cagayan de Oro未取得可确认当前数字，保留null。电力Visayan Electric、Davao Light未确证本期数值，Meralco商业完整价未核；SURSECO II高压0.0000疑占位不当免费；Clark需量/固定费不能合成未知工地总价。Balanga网页与官方MDS生效日期、部分阶梯存在分币差异，源表分别注明不擅裁。
+全国水务LWUA名录读取受安全验证限制；DOE官方2024-12目录和NEA2024报告仅作历史供方范围，不声称2026完整活跃数量或全部价格覆盖。地方LGU、社区转售、全部水表口径、临时施工/商业合同仍未齐全。
+新增水电图片/PDF复杂费表及SKY/TNT/Globe Go59本次人工核验，尚不能每日自动解析新价，页面明确；既有PLDT/Converge云端读取限制继续保留失败状态。Starlink、GOMO、Eastern、RISE、Radius未从官网取得可确认公开报价，不猜填。完整证据与来源见三份docs/research-*-20261006.md。

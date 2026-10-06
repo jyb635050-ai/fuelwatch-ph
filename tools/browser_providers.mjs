@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {writeFile} from 'node:fs/promises';
+const root='D:/blender/FuelWatch',online=process.argv.includes('--online'),label=online?'online':'local';
+process.env.TEMP=root+'/work/providers-oct06';process.env.TMP=process.env.TEMP;
+const require=createRequire('C:/Users/73405/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/package.json');
+const {chromium}=require('playwright');
+const ctx=await chromium.launchPersistentContext(root+'/work/providers-oct06/'+label+'-profile',{headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',viewport:{width:1440,height:1050},args:['--disable-crash-reporter','--disable-breakpad','--use-angle=swiftshader']});
+const page=ctx.pages()[0],errors=[];page.on('pageerror',e=>errors.push(e.message));
+const shot=async(name,full=false)=>{await page.waitForTimeout(500);await page.screenshot({path:root+'/docs/providers-'+label+'-'+name+'.png',fullPage:full});};
+const nav=async s=>page.locator(`.nav-shell [data-section="${s}"]`).click();
+try{
+ console.log('Browser opened');await page.goto(online?'https://jyb635050-ai.github.io/fuelwatch-ph/?providers=20261006':'file:///D:/blender/FuelWatch/index.html');
+ await page.waitForFunction(()=>typeof ready!=='undefined'&&ready&&map.queryRenderedFeatures({layers:['points']}).length>=10500,null,{timeout:60000});
+ const rendered=await page.evaluate(()=>map.queryRenderedFeatures({layers:['points']}).length);await shot('map');console.log('Map rendered '+rendered);
+ assert((await page.title()).startsWith('各种能源价格网站'));assert(!(await page.locator('.nav-shell').innerText()).includes('天然气'));
+ await nav('water');assert.equal(await page.locator('.supplier-row').count(),27);assert.equal(await page.locator('[aria-label="水电供应商"] option').count(),15);
+ await page.getByLabel('水电供应商',{exact:true}).selectOption('Balanga Water District');
+ assert((await page.locator('.supplier-results').innerText()).includes('最低'));assert((await page.locator('.supplier-results').innerText()).includes('PHP/month'));
+ await shot('water');console.log('Water provider and minimum-monthly units verified');
+ await nav('electricity');assert.equal(await page.locator('[aria-label="水电供应商"] option').count(),15);
+ await page.getByLabel('水电供应商',{exact:true}).selectOption('Negros Power');assert((await page.locator('.supplier-results').innerText()).includes('仅发电分项'));await shot('electricity');
+ await page.getByLabel('水电供应商',{exact:true}).selectOption('Clark Electric');assert((await page.locator('.supplier-results').innerText()).includes('暂无可核实数字'));
+ await nav('lpg');assert.equal(await page.locator('.supplier-row').count(),11);
+ await nav('broadband');assert.equal(await page.locator('.network-row').count(),19);await page.getByLabel('网络供应商',{exact:true}).selectOption('SKY');assert.equal(await page.locator('.network-row').count(),7);assert(!(await page.locator('.network-results').innerText()).includes('null GB'));await shot('network');
+ await nav('mobile');assert.equal(await page.locator('.network-row').count(),12);await page.getByLabel('计费周期',{exact:true}).selectOption('15 days');assert.equal(await page.locator('.network-row').count(),1);assert((await page.locator('.network-row').innerText()).includes('TNT'));
+ await nav('overview');assert.equal(await page.locator('.utility-card').count(),5);assert(!(await page.locator('.network-dashboard').isVisible()));await shot('overview',true);
+ await nav('water');await page.setViewportSize({width:390,height:844});await page.getByLabel('水电供应商',{exact:true}).selectOption('Balanga Water District');await shot('mobile',true);
+ const mobileOverflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);assert.equal(mobileOverflow,false);assert.deepEqual(errors,[]);
+ const result={rendered,waterProviders:14,electricityProviders:14,lpgRegions:11,networkProviders:7,broadband:19,mobile:12,filters:true,minimumMonthlyUnits:true,generationOnlyLabel:true,missingPriceLabel:true,mobileOverflow,errors};
+ await writeFile(root+'/docs/providers-'+label+'-results.json',JSON.stringify(result,null,2));console.log('PASS provider browser '+JSON.stringify(result));
+}finally{await ctx.close();}

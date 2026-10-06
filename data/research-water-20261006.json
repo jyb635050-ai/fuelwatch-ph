@@ -1,0 +1,1331 @@
+{
+  "observed_at": "2026-10-06",
+  "scope": "Official published tariff schedules and gaps; not a nationwide complete list or verified individual shop bills.",
+  "directory_sources": [
+    "https://lwua.gov.ph/water-districts/",
+    "https://rbpms.dap.edu.ph/agency/local-water-district/?sb_active=locwaterdist",
+    "https://www.foi.gov.ph/en/sectors/water-districts/"
+  ],
+  "rows": [
+    {
+      "service": "water",
+      "provider": "Balanga Water District",
+      "region": "Balanga, Bataan",
+      "category": "residential",
+      "price": 165,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "2025 rate schedule",
+      "observed_at": "2026-10-06",
+      "source_url": "https://balangawater.gov.ph/water-rates/",
+      "notes": "另加2% franchise tax。网页称January2025；官方September2025 MDS标2025-02-01生效且个别阶梯相差0.01，因此具体生效日未定，保留网页价目原数，不合并计算。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 165,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 18.15,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 20.08,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 22.28,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 24.75,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 27.5,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Balanga Water District",
+      "region": "Balanga, Bataan",
+      "category": "commercial-industrial",
+      "price": 330,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "2025 rate schedule",
+      "observed_at": "2026-10-06",
+      "source_url": "https://balangawater.gov.ph/water-rates/",
+      "notes": "另加2% franchise tax。网页称January2025；官方September2025 MDS标2025-02-01生效且个别阶梯相差0.01，因此具体生效日未定，保留网页价目原数，不合并计算。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 330,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 36.3,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 40.16,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 44.56,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 49.5,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 55,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Balanga Water District",
+      "region": "Balanga, Bataan",
+      "category": "commercial-A",
+      "price": 288.75,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "2025 rate schedule",
+      "observed_at": "2026-10-06",
+      "source_url": "https://balangawater.gov.ph/water-rates/",
+      "notes": "另加2% franchise tax。网页称January2025；官方September2025 MDS标2025-02-01生效且个别阶梯相差0.01，因此具体生效日未定，保留网页价目原数，不合并计算。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 288.75,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 31.76,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 35.14,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 38.99,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 43.31,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 48.13,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Balanga Water District",
+      "region": "Balanga, Bataan",
+      "category": "commercial-B",
+      "price": 247.5,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "2025 rate schedule",
+      "observed_at": "2026-10-06",
+      "source_url": "https://balangawater.gov.ph/water-rates/",
+      "notes": "另加2% franchise tax。网页称January2025；官方September2025 MDS标2025-02-01生效且个别阶梯相差0.01，因此具体生效日未定，保留网页价目原数，不合并计算。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 247.5,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 27.23,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 30.12,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 33.42,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 37.13,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 41.25,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Puerto Princesa City Water District",
+      "region": "Puerto Princesa, Palawan",
+      "category": "residential",
+      "price": 280,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://ppcwater.gov.ph/water-rates/",
+      "notes": "官网无生效日。首10m³最低月费，另加septage PHP2/m³实际用量；不含迟缴/连接费。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 280,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 29.9,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 32.7,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 36.4,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": null,
+          "value": 41.4,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Puerto Princesa City Water District",
+      "region": "Puerto Princesa, Palawan",
+      "category": "commercial-industrial",
+      "price": 560,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://ppcwater.gov.ph/water-rates/",
+      "notes": "官网无生效日。首10m³最低月费，另加septage PHP2/m³实际用量；不含迟缴/连接费。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 560,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 59.8,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 65.4,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 72.8,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": null,
+          "value": 82.8,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Puerto Princesa City Water District",
+      "region": "Puerto Princesa, Palawan",
+      "category": "commercial-B",
+      "price": 420,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://ppcwater.gov.ph/water-rates/",
+      "notes": "官网无生效日。首10m³最低月费，另加septage PHP2/m³实际用量；不含迟缴/连接费。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 420,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 44.85,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 49.05,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 54.6,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": null,
+          "value": 61.65,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Palayan City Water District",
+      "region": "Palayan, Nueva Ecija",
+      "category": "residential",
+      "price": 235,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "September 2025 billing",
+      "observed_at": "2026-10-06",
+      "source_url": "https://pcwd.gov.ph/water-rates",
+      "notes": "官网只写Effective SEPTEMBER2025 billing，不擅定月内日期。附加费未明确；表内其他大口径累计值有疑似录入差异，本次只录½寸明确阶梯。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 235,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 24.8,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 26.45,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 28.45,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 30.8,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 33.5,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Palayan City Water District",
+      "region": "Palayan, Nueva Ecija",
+      "category": "commercial-industrial",
+      "price": 470,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "September 2025 billing",
+      "observed_at": "2026-10-06",
+      "source_url": "https://pcwd.gov.ph/water-rates",
+      "notes": "官网只写Effective SEPTEMBER2025 billing，不擅定月内日期。附加费未明确；表内其他大口径累计值有疑似录入差异，本次只录½寸明确阶梯。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 470,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 49.6,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 52.9,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 56.9,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 61.6,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 67,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Panabo Water District",
+      "region": "Panabo, Davao del Norte",
+      "category": "residential",
+      "price": 245.97,
+      "unit": "PHP/month",
+      "meter_size": null,
+      "charge_kind": "minimum monthly",
+      "effective_date": "2023-02-01",
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://panabowaterdistrict.gov.ph/water-rates/",
+      "notes": "官网标VAT inclusive和13% tariff adjustment effective February1,2023。首档minimum后面接11–20CUM；未注明meter size，meter_size需参考账户。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 245.97,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 24.81,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 26.07,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 29.55,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 33.22,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": 60,
+          "value": 33.22,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 61,
+          "to_m3": null,
+          "value": 33.22,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Panabo Water District",
+      "region": "Panabo, Davao del Norte",
+      "category": "commercial-industrial",
+      "price": 491.94,
+      "unit": "PHP/month",
+      "meter_size": null,
+      "charge_kind": "minimum monthly",
+      "effective_date": "2023-02-01",
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://panabowaterdistrict.gov.ph/water-rates/",
+      "notes": "官网标VAT inclusive和13% tariff adjustment effective February1,2023。首档minimum后面接11–20CUM；未注明meter size，meter_size需参考账户。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 491.94,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 49.61,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 52.14,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 59.1,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 66.44,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": 60,
+          "value": 66.44,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 61,
+          "to_m3": null,
+          "value": 66.44,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Panabo Water District",
+      "region": "Panabo, Davao del Norte",
+      "category": "commercial-A",
+      "price": 430.43,
+      "unit": "PHP/month",
+      "meter_size": null,
+      "charge_kind": "minimum monthly",
+      "effective_date": "2023-02-01",
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://panabowaterdistrict.gov.ph/water-rates/",
+      "notes": "官网标VAT inclusive和13% tariff adjustment effective February1,2023。首档minimum后面接11–20CUM；未注明meter size，meter_size需参考账户。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 430.43,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 43.41,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 45.62,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 51.7,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 58.09,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": 60,
+          "value": 58.09,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 61,
+          "to_m3": null,
+          "value": 58.09,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Metropolitan Naga Water District",
+      "region": "Naga, Camarines Sur",
+      "category": "residential",
+      "price": 160,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "LWUA Board Resolution No.22 Series of2026",
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.mnwd.gov.ph/water-rates/",
+      "notes": "官网2026决议价目；未给具体生效日或完整附加费。Minimum后阶梯从11m³起，首10m³定额。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 160,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 18.4,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 19.8,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 21.25,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 22.65,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 24.25,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Metropolitan Naga Water District",
+      "region": "Naga, Camarines Sur",
+      "category": "commercial-industrial",
+      "price": 320,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "LWUA Board Resolution No.22 Series of2026",
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.mnwd.gov.ph/water-rates/",
+      "notes": "官网2026决议价目；未给具体生效日或完整附加费。Minimum后阶梯从11m³起，首10m³定额。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 320,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 36.8,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 39.6,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 42.5,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 45.29,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 48.49,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Metropolitan Naga Water District",
+      "region": "Naga, Camarines Sur",
+      "category": "commercial-A",
+      "price": 280,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": "LWUA Board Resolution No.22 Series of2026",
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.mnwd.gov.ph/water-rates/",
+      "notes": "官网2026决议价目；未给具体生效日或完整附加费。Minimum后阶梯从11m³起，首10m³定额。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 280,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 32.2,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 34.65,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 37.18,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 39.63,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 42.43,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Malaybalay City Water District / PrimeWater",
+      "region": "Malaybalay, Bukidnon",
+      "category": "residential",
+      "price": 188.16,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": "2024-01-01",
+      "tariff_period": "CY2024 tariff image uploadedJanuary2026",
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.emcwd.gov.ph/wp-content/uploads/2026/01/item3_Water-Rates-by-Type-of-Consumers-and-Cost-of-Water-per-cubic-meter-after-minimum-charge-CY-2024_item3_001.png",
+      "notes": "图片抬头确认Malaybalay，绝非MetroCebu。VAT inclusive；LWUA/NWRB批准且地区董事会Resolution36,Series2023。旧生效费率今日仍官网展示，不代表新调价。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 188.16,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 21.17,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 23.91,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 26.81,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 29.87,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 33.08,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Malaybalay City Water District / PrimeWater",
+      "region": "Malaybalay, Bukidnon",
+      "category": "commercial-industrial",
+      "price": 376.32,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": "2024-01-01",
+      "tariff_period": "CY2024 tariff image uploadedJanuary2026",
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.emcwd.gov.ph/wp-content/uploads/2026/01/item3_Water-Rates-by-Type-of-Consumers-and-Cost-of-Water-per-cubic-meter-after-minimum-charge-CY-2024_item3_001.png",
+      "notes": "图片抬头确认Malaybalay，绝非MetroCebu。VAT inclusive；LWUA/NWRB批准且地区董事会Resolution36,Series2023。旧生效费率今日仍官网展示，不代表新调价。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 376.32,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 42.34,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 47.82,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 53.63,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 59.74,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 66.17,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Malaybalay City Water District / PrimeWater",
+      "region": "Malaybalay, Bukidnon",
+      "category": "commercial-A",
+      "price": 329.28,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": "2024-01-01",
+      "tariff_period": "CY2024 tariff image uploadedJanuary2026",
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.emcwd.gov.ph/wp-content/uploads/2026/01/item3_Water-Rates-by-Type-of-Consumers-and-Cost-of-Water-per-cubic-meter-after-minimum-charge-CY-2024_item3_001.png",
+      "notes": "图片抬头确认Malaybalay，绝非MetroCebu。VAT inclusive；LWUA/NWRB批准且地区董事会Resolution36,Series2023。旧生效费率今日仍官网展示，不代表新调价。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 329.28,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 37.0,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 41.79,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 46.88,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 50,
+          "value": 52.21,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 51,
+          "to_m3": null,
+          "value": 57.86,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Calbayog City Water District",
+      "region": "Calbayog, Samar",
+      "category": "residential",
+      "price": 287,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.ccwd.gov.ph/files/WATER%20RATES.pdf",
+      "notes": "官方单页PDF未标生效日期及税费；首1–10m³最低费，不除10作为单价。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 287,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 33.15,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 36,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 40,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": null,
+          "value": 44.75,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Calbayog City Water District",
+      "region": "Calbayog, Samar",
+      "category": "commercial",
+      "price": 574,
+      "unit": "PHP/month",
+      "meter_size": "1/2 inch",
+      "charge_kind": "minimum monthly",
+      "effective_date": null,
+      "tariff_period": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.ccwd.gov.ph/files/WATER%20RATES.pdf",
+      "notes": "官方单页PDF未标生效日期及税费；首1–10m³最低费，不除10作为单价。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 574,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 66.3,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 30,
+          "value": 72,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 31,
+          "to_m3": 40,
+          "value": 80,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": null,
+          "value": 89.5,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Manila Water",
+      "region": "Greater Manila East Zone and Rizal",
+      "category": "residential",
+      "price": 210.43,
+      "unit": "PHP/month",
+      "meter_size": null,
+      "charge_kind": "minimum monthly",
+      "effective_date": "2026-01-01",
+      "tariff_period": "2026 standard BASIC tariff",
+      "observed_at": "2026-10-06",
+      "source_url": "https://mediafiles.manilawater.com/public/pages/671b900c531a3dbe8f0608a2/bill-info/2026-Standard-Rates-Tariff-Table-Original-Signed.pdf",
+      "notes": "仅基本水费，非总账单；Environmental30%、maintenance、government/franchise tax及季度FCDA另算。PDF的January FCDA0.70%不能当October现行FCDA；低收入另有70.55首10m³优惠。本次未将优惠泛用。",
+      "tariff": [
+        {
+          "from_m3": 0,
+          "to_m3": 10,
+          "value": 210.43,
+          "unit": "PHP/month",
+          "charge_kind": "minimum monthly"
+        },
+        {
+          "from_m3": 11,
+          "to_m3": 20,
+          "value": 25.64,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 21,
+          "to_m3": 40,
+          "value": 48.62,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 41,
+          "to_m3": 60,
+          "value": 64.09,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 61,
+          "to_m3": 80,
+          "value": 74.83,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 81,
+          "to_m3": 100,
+          "value": 78.46,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 101,
+          "to_m3": 150,
+          "value": 81.95,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 151,
+          "to_m3": 200,
+          "value": 85.49,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        },
+        {
+          "from_m3": 201,
+          "to_m3": null,
+          "value": 88.99,
+          "unit": "PHP/m³",
+          "charge_kind": "incremental commodity"
+        }
+      ]
+    },
+    {
+      "service": "water",
+      "provider": "Maynilad",
+      "region": "Greater Manila West Zone and parts of Cavite",
+      "category": "average-basic",
+      "price": 52.86,
+      "unit": "PHP/m³",
+      "charge_kind": "average basic reference",
+      "effective_date": "2026-10-01",
+      "published_date": "2026-09-15",
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.mayniladwater.com.ph/notice-to-maynilad-customers-foreign-currency-differential-adjustment-fcda-effective-october-1-2026/",
+      "notes": "52.86是用于FCDA机制的平均基本费，不是住宅或店家统一单价。OctoberFCDA负0.02%，平均rebate0.01/m³；lifeline≤20m³免调整。"
+    },
+    {
+      "service": "water",
+      "provider": "Metropolitan Cebu Water District",
+      "region": "Metro Cebu",
+      "category": "unverified",
+      "price": null,
+      "unit": null,
+      "effective_date": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.mcwd.gov.ph/",
+      "notes": "官网首页已读取，当前费率正文未读取；非官方April2026报道只能当线索，不录数。emcwd.gov.ph实际Malaybalay，已排除混淆。"
+    },
+    {
+      "service": "water",
+      "provider": "Davao City Water District",
+      "region": "Davao City",
+      "category": "unverified",
+      "price": null,
+      "unit": null,
+      "effective_date": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://web.davao-water.gov.ph/services/rates",
+      "notes": "官网费率页JavaScript应用，直接读取403/JSshell。官网调价新闻证实February2026 consumption/Marchbilling调整12.5%，不能从2019旧表推算现价。"
+    },
+    {
+      "service": "water",
+      "provider": "Baguio Water District",
+      "region": "Baguio",
+      "category": "unverified",
+      "price": null,
+      "unit": null,
+      "effective_date": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://baguiowaterdistrict.gov.ph/wp-content/uploads/2022/05/BWD-ARTA-HANDBOOK-2022.pdf",
+      "notes": "已读取2022官方旧宪章费率，未证实2025/2026现行价；不把旧表作为现行数字。"
+    },
+    {
+      "service": "water",
+      "provider": "Bacolod City Water District / PrimeWater",
+      "region": "Bacolod",
+      "category": "unverified",
+      "price": null,
+      "unit": null,
+      "effective_date": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://www.baciwa.gov.ph/baciwa-citizens-charter/",
+      "notes": "官网2026CitizenCharter页面搜索可识别；直接读取403，未取得可核对现行价。"
+    },
+    {
+      "service": "water",
+      "provider": "Cagayan de Oro Water District",
+      "region": "Cagayan de Oro",
+      "category": "unverified",
+      "price": null,
+      "unit": null,
+      "effective_date": null,
+      "observed_at": "2026-10-06",
+      "source_url": "https://cagayandeoro.gov.ph/index.php/item/4002-abaday-calls-for-review-of-40-percent-cowd-water-rate-hike-bid.html",
+      "notes": "官方市政府June9,2026只说明40%拟议涨价；218到294是提案并非获批当前费率，不录现价。"
+    }
+  ]
+}

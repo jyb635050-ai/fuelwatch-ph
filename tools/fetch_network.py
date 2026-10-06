@@ -101,7 +101,7 @@ def collect(source):
   return dict(provider=provider,source_url=url,checked_at=DAY,status='observed',rows=rows)
  except Exception as e:
   oldpath=ROOT/'data/network-prices.json';old=json.loads(oldpath.read_text('utf8')) if oldpath.exists() else {'rows':[]}
-  rows=[dict(r,status='fetch-failed') for r in old['rows'] if r['provider']==provider]
+  rows=[dict(r,status='fetch-failed') for r in old['rows'] if r['provider']==provider and r.get('status')!='manual-verified']
   return dict(provider=provider,source_url=url,checked_at=DAY,status='fetch-failed',rows=rows,error=str(e)[:200])
 if __name__=='__main__':
  with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:collected=list(pool.map(collect,SOURCES))

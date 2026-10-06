@@ -84,3 +84,14 @@ The user-specified title is now 各种能源价格网站. The empty natural-gas 
 Broadband and mobile data offers are separate views, grouped by the original billing period. Provider and billing-period filters, maximum speed/data allocation, collection date, source links and eligibility/contract/setup-cost notes accompany each offer. No daily/weekly offer is multiplied into an invented monthly tariff. Current collection covers 19 explicit offers from five supplier product pages: PLDT Home Internet, Globe GFiber Prepaid, Converge Super FiberX, Smart POWER ALL 99 and standard DITO Level-Up packs. This is a selection, not every supplier or offer. Supplier checkout/app/address confirmation remains necessary.
 
 `tools/fetch_network.py` is part of the existing daily 04:35 Philippine-time cloud check and needs only Python standard library plus curl. Product pages without effective dates are recorded as observed, not newly effective tariffs. Parser/fetch failures retain original observed dates and show a failure status. `node tools/validate_network.mjs` validates sources, periods, parameters and dates. Both the weekly fuel and daily utility workflows include all network UI and data files when deploying. The original frozen acceptance is unchanged.
+
+
+## 2026-10-06 多供应商官网调查
+
+水务调查14家，9家取得数值；电力调查14家，11家取得数值（其中Negros Power只取得发电分项，Clark仅列部分收费组成且总价留空）。水务27条、电力41条类别/缺口记录；LPG11个DOE区域监测记录；网络7家31个套餐。上述是核验子集，不是全国完整费率库。
+
+详情见 docs/research-water-20261006.md、docs/research-electricity-20261006.md、docs/research-coverage-20261006.md。UI可按供应商、服务地区、用户类别筛选，逐条链接原官方价目和披露其月份/无生效日期。住宅价不能代表商店或工程临时用电；最低月费不是每立方米单价；发电分项不是总电价，不进行跨地区虚假排名。
+
+新增水电价表为2026-10-06人工官网核验，含2023/2024等原旧费表和八/九月电价，保留原日期，不宣称全是本月价格。原自动采集器每日检查Maynilad、Meralco、DOE和5家网络官网；SKY、TNT与Globe Go59本次人工核验后保留，尚无每日新价解析。采集失败不刷新旧价日期。tools/merge_researched_network.py 与 tools/build_provider_bundle.py 确保自动发布不丢失补充研究。
+
+新增验证：node tools/validate_providers.mjs，node tools/validate_network.mjs；浏览器验证 tools/browser_providers.mjs。原 docs/acceptance.mjs 保持冻结。
