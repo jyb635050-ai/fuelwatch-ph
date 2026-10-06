@@ -1,0 +1,309 @@
+collect-and-deploy	Set up job	﻿2026-10-06T00:27:57.1392219Z Current runner version: '2.337.0'
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1410789Z ##[group]Runner Image Provisioner
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1411346Z Hosted Compute Agent
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1411766Z Version: 20260901.588
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1412248Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1412679Z Build Date: 2026-09-01T19:56:44Z
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1413298Z Worker ID: {8660d77b-7562-4598-9c65-e20a370f24da}
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1413760Z Azure Region: centralus
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1414147Z ##[endgroup]
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1415222Z ##[group]Operating System
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1415594Z Ubuntu
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1415965Z 24.04.5
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1416283Z LTS
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1416628Z ##[endgroup]
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1417033Z ##[group]Runner Image
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1417404Z Image: ubuntu-24.04
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1417789Z Version: 20260927.320.1
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1418413Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1419501Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1420074Z ##[endgroup]
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1420824Z ##[group]GITHUB_TOKEN Permissions
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1422260Z Contents: write
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1422670Z Metadata: read
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1423011Z Pages: write
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1423782Z ##[endgroup]
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1425196Z Secret source: Actions
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1425788Z Cache mode: write
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1426415Z Prepare workflow directory
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1666484Z Prepare all required actions
+collect-and-deploy	Set up job	2026-10-06T00:27:57.1698105Z Getting action download info
+collect-and-deploy	Set up job	2026-10-06T00:27:57.4288486Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+collect-and-deploy	Set up job	2026-10-06T00:27:57.5049684Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+collect-and-deploy	Set up job	2026-10-06T00:27:57.6104357Z Download action repository 'actions/configure-pages@v5' (SHA:983d7736d9b0ae728b81ab479565c72886d7745b)
+collect-and-deploy	Set up job	2026-10-06T00:27:58.0031989Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+collect-and-deploy	Set up job	2026-10-06T00:27:58.1736141Z Download action repository 'actions/deploy-pages@v4' (SHA:d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e)
+collect-and-deploy	Set up job	2026-10-06T00:27:58.7917983Z Getting action download info
+collect-and-deploy	Set up job	2026-10-06T00:27:58.9119609Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+collect-and-deploy	Set up job	2026-10-06T00:27:59.0787673Z Complete job name: collect-and-deploy
+collect-and-deploy	Run actions/checkout@v4	﻿2026-10-06T00:27:59.1330263Z ##[group]Run actions/checkout@v4
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1331106Z with:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1331651Z   repository: jyb635050-ai/fuelwatch-ph
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1336844Z   token: ***
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1337402Z   ssh-strict: true
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1337945Z   ssh-user: git
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1338499Z   persist-credentials: true
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1339104Z   clean: true
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1339629Z   sparse-checkout-cone-mode: true
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1340296Z   fetch-depth: 1
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1340805Z   fetch-tags: false
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1341319Z   show-progress: true
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1341903Z   lfs: false
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1342422Z   submodules: false
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1342975Z   set-safe-directory: true
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1343689Z   allow-unsafe-pr-checkout: false
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.1344405Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2139793Z Syncing repository: jyb635050-ai/fuelwatch-ph
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2141505Z ##[group]Getting Git version info
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2142259Z Working directory is '/home/runner/work/fuelwatch-ph/fuelwatch-ph'
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2143600Z [command]/usr/bin/git version
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2160424Z git version 2.55.0
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2174171Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2185909Z Temporarily overriding HOME='/home/runner/work/_temp/00c47075-c291-4a2c-8751-e3705ad65abd' before making global git config changes
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2188233Z Adding repository directory to the temporary git global config as a safe directory
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2190750Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/fuelwatch-ph/fuelwatch-ph
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2241275Z Deleting the contents of '/home/runner/work/fuelwatch-ph/fuelwatch-ph'
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2244994Z ##[group]Initializing the repository
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2247620Z [command]/usr/bin/git init /home/runner/work/fuelwatch-ph/fuelwatch-ph
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2346774Z hint: Using 'master' as the name for the initial branch. This default branch name
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2348773Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2350622Z hint: to use in all of your new repositories, which will suppress this warning,
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2351991Z hint: call:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2353044Z hint:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2353959Z hint: 	git config --global init.defaultBranch <name>
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2354922Z hint:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2355821Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2357329Z hint: 'development'. The just-created branch can be renamed via this command:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2358503Z hint:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2359131Z hint: 	git branch -m <name>
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2359853Z hint:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2360840Z hint: Disable this message with "git config set advice.defaultBranchName false"
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2366688Z Initialized empty Git repository in /home/runner/work/fuelwatch-ph/fuelwatch-ph/.git/
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2395033Z [command]/usr/bin/git remote add origin https://github.com/jyb635050-ai/fuelwatch-ph
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2418411Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2419674Z ##[group]Disabling automatic garbage collection
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2420775Z [command]/usr/bin/git config --local gc.auto 0
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2450513Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2451669Z ##[group]Setting up auth
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2455444Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2500983Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2777661Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2806987Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.2972821Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.3000834Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.3186958Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.3220821Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.3222033Z ##[group]Fetching the repository
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:27:59.3227636Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +fcf9efb925dda5c67d7e6d594f2692e75021ee37:refs/remotes/origin/main
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6614533Z From https://github.com/jyb635050-ai/fuelwatch-ph
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6615912Z  * [new ref]         fcf9efb925dda5c67d7e6d594f2692e75021ee37 -> origin/main
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6617731Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6618117Z ##[group]Determining the checkout info
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6619653Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6625378Z [command]/usr/bin/git sparse-checkout disable
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6669515Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6701790Z ##[group]Checking out the ref
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.6704726Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.7191181Z Switched to a new branch 'main'
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.7194175Z branch 'main' set up to track 'origin/main'.
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.7201386Z ##[endgroup]
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.7239221Z [command]/usr/bin/git log -1 --format=%H
+collect-and-deploy	Run actions/checkout@v4	2026-10-06T00:28:00.7260597Z fcf9efb925dda5c67d7e6d594f2692e75021ee37
+collect-and-deploy	Run actions/setup-node@v4	﻿2026-10-06T00:28:00.7450356Z ##[group]Run actions/setup-node@v4
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.7450585Z with:
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.7450725Z   node-version: 24
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.7450871Z   always-auth: false
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.7451020Z   check-latest: false
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.7452473Z   token: ***
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.7452611Z ##[endgroup]
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.8323694Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.8327089Z (node:2093) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.8327663Z (Use `node --trace-deprecation ...` to show where the warning was created)
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:00.8328721Z ##[group]Environment details
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:01.1326685Z node: v24.21.0
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:01.1327061Z npm: 11.19.0
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:01.1327422Z yarn: 1.22.22
+collect-and-deploy	Run actions/setup-node@v4	2026-10-06T00:28:01.1327947Z ##[endgroup]
+collect-and-deploy	Install PDF reader inside this project only	﻿2026-10-06T00:28:01.1439633Z ##[group]Run python -m pip install --target .utility-deps pypdf==6.10.0
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:01.1440007Z ^[[36;1mpython -m pip install --target .utility-deps pypdf==6.10.0^[[0m
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:01.1662243Z shell: /usr/bin/bash -e {0}
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:01.1662432Z ##[endgroup]
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:01.7633658Z Collecting pypdf==6.10.0
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:01.8393340Z   Downloading pypdf-6.10.0-py3-none-any.whl.metadata (7.1 kB)
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:01.8598811Z Downloading pypdf-6.10.0-py3-none-any.whl (334 kB)
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:01.9014004Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 334.5/334.5 kB 8.5 MB/s eta 0:00:00
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:02.0331748Z Installing collected packages: pypdf
+collect-and-deploy	Install PDF reader inside this project only	2026-10-06T00:28:02.1710086Z Successfully installed pypdf-6.10.0
+collect-and-deploy	Collect dated official references and explicit source failures	﻿2026-10-06T00:28:02.2143043Z ##[group]Run python tools/fetch_utilities.py
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:02.2143543Z ^[[36;1mpython tools/fetch_utilities.py^[[0m
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:02.2143722Z ^[[36;1mpython tools/fetch_network.py^[[0m
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:02.2143886Z ^[[36;1mpython tools/merge_researched_network.py^[[0m
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:02.2144065Z ^[[36;1mpython tools/build_provider_bundle.py^[[0m
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:02.2196638Z shell: /usr/bin/bash -e {0}
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:02.2196781Z ##[endgroup]
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:10.7831840Z {"checked_at": "2026-10-06", "categories": [{"id": "water", "status": "reference", "observations": [{"provider": "Maynilad", "region": "Greater Manila West Zone", "value": 52.86, "unit": "PHP/m³", "as_of": "2026-10-01", "scope": "Average basic charge in dated FCDA notice; excludes bill-specific additions", "source_url": "https://www.mayniladwater.com.ph/notice-to-maynilad-customers-foreign-currency-differential-adjustment-fcda-effective-october-1-2026/"}]}, {"id": "electricity", "status": "historical", "observations": [{"provider": "Meralco", "region": "Meralco service area", "value": 14.7424, "unit": "PHP/kWh", "as_of": "2026-09-11", "scope": "Typical residential overall rate; business tariff unverified", "source_url": "https://meralcomain.s3.ap-southeast-1.amazonaws.com/2026-09/english_press_release-_meralco_september_2026_rates.pdf"}]}, {"id": "lpg", "status": "historical", "observations": [{"provider": "DOE NCR survey", "region": "NCR", "min": 1025.0, "max": 1535.0, "common": 1341.0, "unit": "PHP / 11 kg cylinder", "as_of": "2026-09-01", "period_end": "2026-09-07", "scope": "Household 11 kg LPG survey; not natural gas", "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20September%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia"}]}]}
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:12.4199952Z {"rows": 19, "providers": [{"provider": "PLDT", "source_url": "https://www.pldthome.com/internet", "checked_at": "2026-10-06", "status": "fetch-failed", "error": "Unique Fiber Unli comparison table missing"}, {"provider": "Globe", "source_url": "https://gfiberprepaid.globe.com.ph/", "checked_at": "2026-10-06", "status": "observed"}, {"provider": "Converge", "source_url": "https://www.convergeict.com/super-fiberx", "checked_at": "2026-10-06", "status": "fetch-failed", "error": "Command '['curl', '-f', '-sS', '-L', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36', '--retry', '1', '--max-time', '3"}, {"provider": "Smart", "source_url": "https://store.smart.com.ph/smart-bro/power-all-99/1601900800.html", "checked_at": "2026-10-06", "status": "observed"}, {"provider": "DITO", "source_url": "https://dito.ph/prepaid/level-up", "checked_at": "2026-10-06", "status": "observed"}]}
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:12.4427443Z PASS merged network: 31 offers; manual dates retained
+collect-and-deploy	Collect dated official references and explicit source failures	2026-10-06T00:28:12.4639640Z PASS provider aggregation {"water": {"providers": 14, "numeric_providers": 9, "rows": 27}, "electricity": {"providers": 14, "numeric_providers": 11, "rows": 41}, "lpg": {"providers": 1, "numeric_providers": 1, "rows": 11}}
+collect-and-deploy	Validate original frozen acceptance	﻿2026-10-06T00:28:12.4696059Z ##[group]Run node tools/validate_utilities.mjs
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.4696392Z ^[[36;1mnode tools/validate_utilities.mjs^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.4696654Z ^[[36;1mnode tools/validate_network.mjs^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.4696894Z ^[[36;1mnode tools/validate_providers.mjs^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.4697129Z ^[[36;1mnode docs/acceptance.mjs all^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.4747771Z shell: /usr/bin/bash -e {0}
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.4747911Z ##[endgroup]
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.5002949Z PASS utilities: 3 separate categories; official source hosts; dated observations; tariff classes explicit; unavailable natural gas removed
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.5231849Z PASS network: 31 dated official offers; 7 provider checks; billing periods distinct; no inferred effective dates
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.5449555Z PASS providers: dated official sources, positive numeric tariffs, explicit gaps and separate units; {"water":{"providers":14,"numeric_providers":9,"rows":27},"electricity":{"providers":14,"numeric_providers":11,"rows":41},"lpg":{"providers":1,"numeric_providers":1,"rows":11}}
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.5853881Z PASS stations: total=10842 >=10500; missing_coordinates=0; brands=40 <=40; no case variants
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.5859216Z PASS prices: rows=18 >=15; source_url=http; as_of=2026-09-29 within 21 days; duplicates=0 (data/prices.json)
+collect-and-deploy	Validate original frozen acceptance	2026-10-06T00:28:12.5863688Z PASS page: openfreemap; clustered stations; no Marker; 非该站实测; dated history
+collect-and-deploy	Retain observed source history	﻿2026-10-06T00:28:12.5931112Z ##[group]Run git add data/utility-prices.json data/utility-bundle.js data/utility-snapshots data/network-prices.json data/network-bundle.js data/network-snapshots data/provider-prices.json data/provider-bundle.js
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.5931879Z ^[[36;1mgit add data/utility-prices.json data/utility-bundle.js data/utility-snapshots data/network-prices.json data/network-bundle.js data/network-snapshots data/provider-prices.json data/provider-bundle.js^[[0m
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.5932318Z ^[[36;1mif ! git diff --cached --quiet; then^[[0m
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.5932683Z ^[[36;1m  git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Monitor dated official utility references'^[[0m
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.5933046Z ^[[36;1m  git push^[[0m
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.5933368Z ^[[36;1mfi^[[0m
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.5983889Z shell: /usr/bin/bash -e {0}
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.5984031Z ##[endgroup]
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.6428828Z [main 111b401] Monitor dated official utility references
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.6429243Z  8 files changed, 474 insertions(+), 24 deletions(-)
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.6429462Z  create mode 100644 data/network-snapshots/2026-10-06.json
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:12.6429685Z  create mode 100644 data/utility-snapshots/2026-10-06.json
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:13.6996063Z To https://github.com/jyb635050-ai/fuelwatch-ph
+collect-and-deploy	Retain observed source history	2026-10-06T00:28:13.6996389Z    fcf9efb..111b401  main -> main
+collect-and-deploy	Prepare complete static client	﻿2026-10-06T00:28:13.7073656Z ##[group]Run mkdir -p .site/data
+collect-and-deploy	Prepare complete static client	2026-10-06T00:28:13.7073857Z ^[[36;1mmkdir -p .site/data^[[0m
+collect-and-deploy	Prepare complete static client	2026-10-06T00:28:13.7074135Z ^[[36;1mcp index.html upgrade.css upgrade.js network.css network.js suppliers.css suppliers.js presyo-icon.svg .site/^[[0m
+collect-and-deploy	Prepare complete static client	2026-10-06T00:28:13.7074899Z ^[[36;1mcp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json data/network-bundle.js data/network-prices.json data/provider-bundle.js data/provider-prices.json .site/data/^[[0m
+collect-and-deploy	Prepare complete static client	2026-10-06T00:28:13.7126297Z shell: /usr/bin/bash -e {0}
+collect-and-deploy	Prepare complete static client	2026-10-06T00:28:13.7126441Z ##[endgroup]
+collect-and-deploy	Run actions/configure-pages@v5	﻿2026-10-06T00:28:13.7261171Z ##[group]Run actions/configure-pages@v5
+collect-and-deploy	Run actions/configure-pages@v5	2026-10-06T00:28:13.7261334Z with:
+collect-and-deploy	Run actions/configure-pages@v5	2026-10-06T00:28:13.7262704Z   token: ***
+collect-and-deploy	Run actions/configure-pages@v5	2026-10-06T00:28:13.7262813Z   enablement: false
+collect-and-deploy	Run actions/configure-pages@v5	2026-10-06T00:28:13.7262929Z ##[endgroup]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	﻿2026-10-06T00:28:14.0170885Z ##[group]Run actions/upload-pages-artifact@v3
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0171077Z with:
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0171189Z   path: .site
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0171302Z   name: github-pages
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0171421Z   retention-days: 1
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0171532Z env:
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0171635Z   GITHUB_PAGES: true
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0171750Z ##[endgroup]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0211366Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0228630Z ##[group]Run echo ::group::Archive artifact
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0228827Z ^[[36;1mecho ::group::Archive artifact^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0228971Z ^[[36;1mtar \^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0229125Z ^[[36;1m  --dereference --hard-dereference \^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0229298Z ^[[36;1m  --directory "$INPUT_PATH" \^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0229464Z ^[[36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0229624Z ^[[36;1m  --exclude=.git \^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0229761Z ^[[36;1m  --exclude=.github \^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0229914Z ^[[36;1m  .^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0230027Z ^[[36;1mecho ::endgroup::^[[0m
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0251047Z shell: /usr/bin/sh -e {0}
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0251182Z env:
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0251287Z   GITHUB_PAGES: true
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0251408Z   INPUT_PATH: .site
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0251524Z ##[endgroup]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0282076Z ##[group]Archive artifact
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0292993Z ./
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0293363Z ./upgrade.js
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0293574Z ./presyo-icon.svg
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0293761Z ./network.js
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0293938Z ./network.css
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0294127Z ./index.html
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0294294Z ./data/
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0294484Z ./data/network-bundle.js
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0294713Z ./data/provider-bundle.js
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0295155Z ./data/history.json
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0295488Z ./data/provider-prices.json
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0296285Z ./data/prices.json
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0296483Z ./data/utility-prices.json
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0296620Z ./data/bundle.js
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0304058Z ./data/utility-bundle.js
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0304244Z ./data/network-prices.json
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0304408Z ./data/stations.json
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0311576Z ./upgrade.css
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0311723Z ./suppliers.css
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0311836Z ./suppliers.js
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0314182Z ##[endgroup]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0321055Z ##[end-action id=__actions_upload-pages-artifact.__run;outcome=success;conclusion=success;duration_ms=10]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0322789Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_2]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0325765Z ##[end-action id=__actions_upload-pages-artifact.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0327078Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_3]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0328767Z ##[end-action id=__actions_upload-pages-artifact.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0329693Z ##[start-action display=Upload artifact;id=__actions_upload-pages-artifact.upload-artifact]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0360813Z ##[group]Run actions/upload-artifact@v4
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0360965Z with:
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0361074Z   name: github-pages
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0361208Z   path: /home/runner/work/_temp/artifact.tar
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0361361Z   retention-days: 1
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0361480Z   if-no-files-found: error
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0361608Z   compression-level: 6
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0361844Z   overwrite: false
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0361962Z   include-hidden-files: false
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0362092Z env:
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0362191Z   GITHUB_PAGES: true
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.0362305Z ##[endgroup]
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.1397740Z (node:2257) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.1398409Z (Use `node --trace-deprecation ...` to show where the warning was created)
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.1426544Z With the provided path, there will be 1 file uploaded
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.1429660Z Artifact name is valid!
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.1430233Z Root directory input is valid!
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.4422556Z Beginning upload of artifact content to blob storage
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.4898428Z (node:2257) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.7793408Z Uploaded bytes 510615
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.8169682Z Finished uploading artifact content to blob storage!
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.8170203Z SHA256 digest of uploaded artifact zip is b3a36da705bcc00c1d9b953fe1fd9934d180bba42a3d950354095bba32ddc09f
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:14.8171603Z Finalizing artifact upload
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:15.0832492Z Artifact github-pages.zip successfully finalized. Artifact ID 11381814943
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:15.0833279Z Artifact github-pages has been successfully uploaded! Final size is 510615 bytes. Artifact ID is 11381814943
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:15.0837630Z Artifact download URL: https://github.com/jyb635050-ai/fuelwatch-ph/actions/runs/37394137446/artifacts/11381814943
+collect-and-deploy	Run actions/upload-pages-artifact@v3	2026-10-06T00:28:15.0937503Z ##[end-action id=__actions_upload-pages-artifact.upload-artifact;outcome=success;conclusion=success;duration_ms=1060]
+collect-and-deploy	Publish complete client	﻿2026-10-06T00:28:15.0988744Z ##[group]Run actions/deploy-pages@v4
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0988910Z with:
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0990376Z   token: ***
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0990503Z   timeout: 600000
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0990617Z   error_count: 10
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0990735Z   reporting_interval: 5000
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0990876Z   artifact_name: github-pages
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0991016Z   preview: false
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0991128Z env:
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0991233Z   GITHUB_PAGES: true
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.0991356Z ##[endgroup]
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.2168528Z (node:2269) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.2169143Z (Use `node --trace-deprecation ...` to show where the warning was created)
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.3580291Z Fetching artifact metadata for "github-pages" in this workflow run
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.5407746Z Found 1 artifact(s)
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.5416839Z Creating Pages deployment with payload:
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.5417146Z {
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.5417361Z 	"artifact_id": 11381814943,
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.5417821Z 	"pages_build_version": "fcf9efb925dda5c67d7e6d594f2692e75021ee37",
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.5446562Z 	"oidc_token": "***"
+collect-and-deploy	Publish complete client	2026-10-06T00:28:15.5446826Z }
+collect-and-deploy	Publish complete client	2026-10-06T00:28:16.6292970Z Created deployment for fcf9efb925dda5c67d7e6d594f2692e75021ee37, ID: fcf9efb925dda5c67d7e6d594f2692e75021ee37
+collect-and-deploy	Publish complete client	2026-10-06T00:28:21.6306819Z Getting Pages deployment status...
+collect-and-deploy	Publish complete client	2026-10-06T00:28:21.8154191Z Reported success!
+collect-and-deploy	Post Run actions/setup-node@v4	﻿2026-10-06T00:28:21.8337060Z Post job cleanup.
+collect-and-deploy	Post Run actions/setup-node@v4	2026-10-06T00:28:21.9107663Z (node:2281) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+collect-and-deploy	Post Run actions/setup-node@v4	2026-10-06T00:28:21.9108180Z (Use `node --trace-deprecation ...` to show where the warning was created)
+collect-and-deploy	Post Run actions/checkout@v4	﻿2026-10-06T00:28:21.9244857Z Post job cleanup.
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:21.9785222Z [command]/usr/bin/git version
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:21.9815399Z git version 2.55.0
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:21.9837086Z Temporarily overriding HOME='/home/runner/work/_temp/90266752-2481-4ace-810e-735dcde05529' before making global git config changes
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:21.9837870Z Adding repository directory to the temporary git global config as a safe directory
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:21.9840141Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/fuelwatch-ph/fuelwatch-ph
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:21.9868723Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:21.9895530Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:22.0093754Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:22.0117530Z http.https://github.com/.extraheader
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:22.0126003Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:22.0153249Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:22.0339776Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+collect-and-deploy	Post Run actions/checkout@v4	2026-10-06T00:28:22.0370465Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+collect-and-deploy	Complete job	﻿2026-10-06T00:28:22.0647006Z Evaluate and set environment url
+collect-and-deploy	Complete job	2026-10-06T00:28:22.0649838Z Evaluated environment url: https://jyb635050-ai.github.io/fuelwatch-ph/
+collect-and-deploy	Complete job	2026-10-06T00:28:22.0650322Z Cleaning up orphan processes
+collect-and-deploy	Complete job	2026-10-06T00:28:22.0828483Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/configure-pages@v5, actions/deploy-pages@v4, actions/setup-node@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

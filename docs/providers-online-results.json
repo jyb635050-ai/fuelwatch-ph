@@ -1,0 +1,15 @@
+{
+  "rendered": 10842,
+  "waterProviders": 14,
+  "electricityProviders": 14,
+  "lpgRegions": 11,
+  "networkProviders": 7,
+  "broadband": 19,
+  "mobile": 12,
+  "filters": true,
+  "minimumMonthlyUnits": true,
+  "generationOnlyLabel": true,
+  "missingPriceLabel": true,
+  "mobileOverflow": false,
+  "errors": []
+}
