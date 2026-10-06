@@ -91,3 +91,5 @@ Automatic price update 2026-09-29T08:33:35.188Z: source=https://gaswatchph.com/,
 供应商调研3完成：本地浏览器地图实际渲染10842站；水务27条/14公司菜单、电力14公司、LPG11条、19宽带+12电信、类别/周期筛选通过，最低月费与发电分项提示正确、Clark整体价留空。手机无页面横向溢出，errors=[]。首次浏览器脚本使用Clark过长名称导致选项超时，改为数据实际名称Clark Electric后通过；未改价格或冻结验收。已查看总览/手机截图，补充手机select宽度和中文商业类别说明。
 
 供应商调研4完成：已发布fcf9efb，真实云端run37394137446 success，后同步实际采集提交111b401。自动采集三类参考和Globe/Smart/DITO成功，PLDT/Converge失败保留旧值；SKY/TNT人工日期不刷新。线上HTTP/1.1 200 OK，浏览器实际渲染10842，14水务/14电力/11LPG区域/19宽带+12电信及筛选、缺价/分项标识、手机无溢出、errors=[]全部验证。已查看线上水务和地图截图；云端日志/三份研究/实际红绿证据/线上截图随提交。新增来源非全国完整覆盖，BLOCKED已列缺口。冻结SHA256仍CABD0D72A74F79132C7A4D537595D0CF31447407ED0FE92188203969551A90A9。
+
+Automatic price update 2026-10-06T09:00:51.625Z: source=https://gaswatchph.com/, week=2026-10-06, rows=18; prior snapshot retained; frozen acceptance passed.
