@@ -3,7 +3,7 @@
  const data=window.FUELWATCH_NETWORK||{rows:[],providers:[],checked_at:null};
  const nav=document.querySelector('.nav-shell'),dashboard=document.querySelector('.utility-dashboard');
  const section=document.createElement('section');section.className='network-dashboard';section.hidden=true;dashboard.after(section);
- const titles={broadband:'宽带价格',mobile:'电信价格'};const buttons={};let service='broadband',provider='',period='';
+ const titles={broadband:'Broadband 宽带价格',mobile:'Telecom 电信价格'};const buttons={};let service='broadband',provider='',period='';
  const money=n=>'₱'+Number(n).toLocaleString('en-PH',{maximumFractionDigits:2});
  const periodName=p=>p==='month'?'每月':p.replace(' days','天有效期');
  const rowsFor=s=>data.rows.filter(r=>r.service===s);

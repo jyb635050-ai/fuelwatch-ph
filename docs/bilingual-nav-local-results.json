@@ -1,0 +1,16 @@
+{
+  "overviewTab": 0,
+  "overviewCards": 0,
+  "navTabs": 6,
+  "categoryRows": {
+    "water": 27,
+    "electricity": 41,
+    "lpg": 11,
+    "broadband": 19,
+    "mobile": 12
+  },
+  "providerFilters": true,
+  "returnedMapStations": 10842,
+  "mobileOverflow": false,
+  "errors": []
+}
