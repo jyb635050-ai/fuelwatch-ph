@@ -26,11 +26,7 @@
   const rows=data.rows.filter(r=>r.service===service);if(!rows.length)continue;
   const count=new Set(rows.map(r=>r.provider)).size;
   const tab=nav.querySelector(`[data-section="${service}"]`);tab.addEventListener('click',()=>open(service));
-  const button=document.querySelector(`[data-detail="${service}"]`);button.addEventListener('click',()=>open(service));
-  const card=button.closest('.utility-card');card.querySelector('.utility-value').textContent=service==='lpg'?`${rows.length} 个区域`:`${count} 家供应商`;
-  card.querySelector('.utility-state').textContent=service==='lpg'?'历史区域监测':`${new Set(rows.filter(r=>r.price!=null||r.min!=null).map(r=>r.provider)).size}家有数值（含分项）`;
-  const ps=card.querySelectorAll('p');if(ps[0])ps[0].textContent='地区、用户类别与费率口径分开';if(ps[1])ps[1].textContent=`官网核验 ${data.reviewed_at}`;if(ps[2])ps[2].textContent='不是全国完整覆盖 · 含旧费表';
-  button.textContent='查看公司与价目 →';
+
  }
  window.ENERGY_PROVIDER_VIEW={data,open};
 })();

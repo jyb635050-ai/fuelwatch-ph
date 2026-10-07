@@ -53,16 +53,16 @@ const changeText=f=>{if(!previous)return 'Collecting weekly history';const value
 document.querySelector('.adjustments').innerHTML=`<div><b>NCR reference change</b><br>Diesel: ${changeText('diesel')}<br>Unleaded 91: ${changeText('ron91')}</div><small>Week of ${esc(prices.as_of)}<br>Comparable brand averages only<br><a href="https://gaswatchph.com/" target="_blank" rel="noopener">Price source ↗</a></small>`;
 document.querySelector('#history').innerHTML=weeks.length<2?`数据从 ${esc(weeks[0].as_of)} 周开始积累。<br>One week recorded. No invented trend lines.`:`${weeks.length} weekly snapshots recorded since ${esc(weeks[0].as_of)}.<br>Trends use recorded brand references only.`;
 </script>
-<link rel="stylesheet" href="upgrade.css?v=20261006-providers1">
-<script src="data/utility-bundle.js?v=20261006-providers1"></script>
-<script src="upgrade.js?v=20261006-providers1"></script>
+<link rel="stylesheet" href="upgrade.css?v=20261007-direct">
+<script src="data/utility-bundle.js?v=20261007-direct"></script>
+<script src="upgrade.js?v=20261007-direct"></script>
 
-<link rel="stylesheet" href="network.css?v=20261006-providers1">
-<script src="data/network-bundle.js?v=20261006-providers1"></script>
-<script src="network.js?v=20261006-providers1"></script>
+<link rel="stylesheet" href="network.css?v=20261007-direct">
+<script src="data/network-bundle.js?v=20261007-direct"></script>
+<script src="network.js?v=20261007-direct"></script>
 
-<link rel="stylesheet" href="suppliers.css?v=20261006-providers1">
-<script src="data/provider-bundle.js?v=20261006-providers1"></script>
-<script src="suppliers.js?v=20261006-providers1"></script>
+<link rel="stylesheet" href="suppliers.css?v=20261007-direct">
+<script src="data/provider-bundle.js?v=20261007-direct"></script>
+<script src="suppliers.js?v=20261007-direct"></script>
 
 <link rel="stylesheet" href="brand.css?v=20261007">

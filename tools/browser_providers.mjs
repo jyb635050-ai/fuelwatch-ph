@@ -24,7 +24,7 @@ try{
  await nav('lpg');assert.equal(await page.locator('.supplier-row').count(),11);
  await nav('broadband');assert.equal(await page.locator('.network-row').count(),19);await page.getByLabel('网络供应商',{exact:true}).selectOption('SKY');assert.equal(await page.locator('.network-row').count(),7);assert(!(await page.locator('.network-results').innerText()).includes('null GB'));await shot('network');
  await nav('mobile');assert.equal(await page.locator('.network-row').count(),12);await page.getByLabel('计费周期',{exact:true}).selectOption('15 days');assert.equal(await page.locator('.network-row').count(),1);assert((await page.locator('.network-row').innerText()).includes('TNT'));
- await nav('overview');assert.equal(await page.locator('.utility-card').count(),5);assert(!(await page.locator('.network-dashboard').isVisible()));await shot('overview',true);
+ assert.equal(await page.locator('[data-section="overview"]').count(),0);assert.equal(await page.locator('.utility-card').count(),0);await nav('water');assert(!(await page.locator('.network-dashboard').isVisible()));await shot('overview',true);
  await nav('water');await page.setViewportSize({width:390,height:844});await page.getByLabel('水电供应商',{exact:true}).selectOption('Balanga Water District');await shot('mobile',true);
  const mobileOverflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);assert.equal(mobileOverflow,false);assert.deepEqual(errors,[]);
  const result={rendered,waterProviders:14,electricityProviders:14,lpgRegions:11,networkProviders:7,broadband:19,mobile:12,filters:true,minimumMonthlyUnits:true,generationOnlyLabel:true,missingPriceLabel:true,mobileOverflow,errors};

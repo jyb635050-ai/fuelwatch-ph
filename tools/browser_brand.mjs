@@ -14,9 +14,9 @@ try{
  assert(await page.locator('header img.logo').evaluate(el=>el.complete&&el.naturalWidth>0));assert((await page.locator('link[rel="icon"]').getAttribute('href')).startsWith('aureva-icon.svg'));
  await page.locator('header').screenshot({path:root+'/docs/aureva-'+label+'-header.png'});
  await page.screenshot({path:root+'/docs/aureva-'+label+'-map.png'});
- await page.locator('[data-section="overview"]').click();assert.equal(await page.locator('.utility-card').count(),5);await page.screenshot({path:root+'/docs/aureva-'+label+'-overview.png'});
+ assert.equal(await page.locator('[data-section="overview"]').count(),0);assert.equal(await page.locator('.utility-card').count(),0);await page.locator('[data-section="water"]').click();assert(await page.locator('.supplier-row').count()>0);await page.screenshot({path:root+'/docs/aureva-'+label+'-overview.png'});
  const widths=[390,320],overflows=[];
  for(const width of widths){await page.setViewportSize({width,height:844});overflows.push(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth));assert.equal(overflows.at(-1),false);if(width===390)await page.screenshot({path:root+'/docs/aureva-'+label+'-mobile.png',fullPage:true});}
- assert.deepEqual(errors,[]);const result={title:await page.title(),chinese:'衡价',english:'AUREVA',iconLoaded:true,mapStations:10842,overviewPanels:5,mobileWidths:widths,mobileOverflow:overflows,errors};
+ assert.deepEqual(errors,[]);const result={title:await page.title(),chinese:'衡价',english:'AUREVA',iconLoaded:true,mapStations:10842,overviewRemoved:true,mobileWidths:widths,mobileOverflow:overflows,errors};
  await writeFile(root+'/docs/aureva-'+label+'-results.json',JSON.stringify(result,null,2));console.log('PASS bilingual brand '+JSON.stringify(result));
 }finally{await ctx.close();}
