@@ -99,3 +99,5 @@ Automatic price update 2026-10-06T09:00:51.625Z: source=https://gaswatchph.com/,
 2026-10-07 品牌升级2完成：本地真实浏览器title、页头中文衡价/英文AUREVA、SVG加载、5总览板块、10842站点和320/390手机无横向溢出全部通过，errors=[]。已查看双语页头截图，字标与深墨蓝/香槟金图标清晰。node docs/acceptance.mjs all全绿，冻结SHA256未变。
 
 2026-10-07 品牌发布阻塞：真实run37554682860在新增供应商校验assert(r.observed_at<=data.reviewed_at)失败，自动检查10月7日不应被昨天人工核验10月6日限制。上线必需修复：增加verification_method区分人工/自动、checked_at从实际记录日期得出；人工核验日不刷新。冻结docs/acceptance.mjs不改，修复和红绿日志一并交付。
+
+2026-10-07 品牌升级3完成：修复必要跨日校验后run37554864130 success，站点与aureva-icon.svg均HTTP/1.1 200 OK。线上title衡价AUREVA、双语页头、SVG加载、10842站/5总览、320和390px无横向溢出、errors=[]通过。已查看线上页头截图；每日自动检查已到10月7日，人工核验仍10月6日。原冻结SHA256仍CABD0D72A74F79132C7A4D537595D0CF31447407ED0FE92188203969551A90A9。实际失败/成功云端日志和线上截图随交付，BLOCKED保留既有数据缺口。
