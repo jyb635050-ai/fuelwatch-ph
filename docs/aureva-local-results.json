@@ -1,0 +1,17 @@
+{
+  "title": "衡价 AUREVA · 菲律宾生活成本参考",
+  "chinese": "衡价",
+  "english": "AUREVA",
+  "iconLoaded": true,
+  "mapStations": 10842,
+  "overviewPanels": 5,
+  "mobileWidths": [
+    390,
+    320
+  ],
+  "mobileOverflow": [
+    false,
+    false
+  ],
+  "errors": []
+}

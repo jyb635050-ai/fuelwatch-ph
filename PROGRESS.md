@@ -93,3 +93,7 @@ Automatic price update 2026-09-29T08:33:35.188Z: source=https://gaswatchph.com/,
 供应商调研4完成：已发布fcf9efb，真实云端run37394137446 success，后同步实际采集提交111b401。自动采集三类参考和Globe/Smart/DITO成功，PLDT/Converge失败保留旧值；SKY/TNT人工日期不刷新。线上HTTP/1.1 200 OK，浏览器实际渲染10842，14水务/14电力/11LPG区域/19宽带+12电信及筛选、缺价/分项标识、手机无溢出、errors=[]全部验证。已查看线上水务和地图截图；云端日志/三份研究/实际红绿证据/线上截图随提交。新增来源非全国完整覆盖，BLOCKED已列缺口。冻结SHA256仍CABD0D72A74F79132C7A4D537595D0CF31447407ED0FE92188203969551A90A9。
 
 Automatic price update 2026-10-06T09:00:51.625Z: source=https://gaswatchph.com/, week=2026-10-06, rows=18; prior snapshot retained; frozen acceptance passed.
+
+2026-10-07 品牌升级1完成：按新请求将中文改衡价、英文AUREVA，使用深墨蓝/香槟金几何A+水平衡量线SVG，双语页头和favicon/title/application-name统一。旧文件已保存在work/brand-oct07，原图标不删除。保持原网址、价格数据和冻结验收；仅品牌资源/两条完整发布流程更新。品牌取简洁可读，系统字体避免新增加载成本。
+
+2026-10-07 品牌升级2完成：本地真实浏览器title、页头中文衡价/英文AUREVA、SVG加载、5总览板块、10842站点和320/390手机无横向溢出全部通过，errors=[]。已查看双语页头截图，字标与深墨蓝/香槟金图标清晰。node docs/acceptance.mjs all全绿，冻结SHA256未变。

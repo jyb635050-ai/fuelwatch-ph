@@ -13,7 +13,7 @@ try{
  console.log('Browser opened');await page.goto(online?'https://jyb635050-ai.github.io/fuelwatch-ph/?providers=20261006':'file:///D:/blender/FuelWatch/index.html');
  await page.waitForFunction(()=>typeof ready!=='undefined'&&ready&&map.queryRenderedFeatures({layers:['points']}).length>=10500,null,{timeout:60000});
  const rendered=await page.evaluate(()=>map.queryRenderedFeatures({layers:['points']}).length);await shot('map');console.log('Map rendered '+rendered);
- assert((await page.title()).startsWith('各种能源价格网站'));assert(!(await page.locator('.nav-shell').innerText()).includes('天然气'));
+ assert((await page.title()).startsWith('衡价 AUREVA'));assert(!(await page.locator('.nav-shell').innerText()).includes('天然气'));
  await nav('water');assert.equal(await page.locator('.supplier-row').count(),27);assert.equal(await page.locator('[aria-label="水电供应商"] option').count(),15);
  await page.getByLabel('水电供应商',{exact:true}).selectOption('Balanga Water District');
  assert((await page.locator('.supplier-results').innerText()).includes('最低'));assert((await page.locator('.supplier-results').innerText()).includes('PHP/month'));

@@ -1,4 +1,4 @@
-# 各种能源价格网站
+# 衡价 · AUREVA
 
 A small, static Philippine fuel map. 10,842 OpenStreetMap stations, clustered for mobile performance. Open index.html directly while online, or visit GitHub Pages. No build tools, backend, account, API key or paid services.
 
@@ -95,3 +95,8 @@ Broadband and mobile data offers are separate views, grouped by the original bil
 新增水电价表为2026-10-06人工官网核验，含2023/2024等原旧费表和八/九月电价，保留原日期，不宣称全是本月价格。原自动采集器每日检查Maynilad、Meralco、DOE和5家网络官网；SKY、TNT与Globe Go59本次人工核验后保留，尚无每日新价解析。采集失败不刷新旧价日期。tools/merge_researched_network.py 与 tools/build_provider_bundle.py 确保自动发布不丢失补充研究。
 
 新增验证：node tools/validate_providers.mjs，node tools/validate_network.mjs；浏览器验证 tools/browser_providers.mjs。原 docs/acceptance.mjs 保持冻结。
+
+
+## 2026-10-07 品牌更新
+
+中文名“衡价”，英文品牌“AUREVA”。生活成本参考涵盖燃油、水电煤气与通信；中英名称同时用于页头、浏览器标题与应用名。深墨蓝底/香槟金几何A与水平衡量线用于SVG图标，保持小尺寸清晰。品牌资源为aureva-icon.svg与brand.css，无外部字体、构建或新增服务。
