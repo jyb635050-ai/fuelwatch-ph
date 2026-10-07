@@ -117,3 +117,5 @@ Automatic price update 2026-10-06T09:00:51.625Z: source=https://gaswatchph.com/,
 2026-10-07 通话短信1完成：官网实读Globe普通资费、DITO Level-Up和2025-02-12官方资费文章、TNT AllAccess及Smart POWERALL99。新增8条国内普通按分钟/按条参考，DITO普通价明确历史；Go59无限SMS、TNT无限通话短信、DITO网内无限+300分钟其他手机网分别展示。Smart POWERALL99正文仅数据/TikTok，未从缺失说明猜通话；TNT5G仍未核实。每条保留来源/口径/人工日期。
 
 2026-10-07 通话短信2完成：本地真实浏览器普通表8条/套餐通话短信12行、DITO6套餐300分钟+无限SMS、Smart未核实/Globe仅SMS、供应商筛选、宽带不显示手机权益、返回10842站地图、手机无溢出/零异常通过。已查看普通资费和DITO权益截图；明确2025历史提示，普通费改每供方四项对齐便于读。validate_network与原冻结all全绿，数据自动采集保留原日期。
+
+2026-10-07 通话短信3完成：run37560036408 success，线上HTTP/1.1 200 OK。云端独立Calls/SMS校验通过，真实线上浏览器regularRates=8/callSmsRows=12、DITO历史标识、未知不当免费、供应商筛选及六分类往返、返回10842站地图/手机无溢出/errors=[]通过。已查看线上普通资费截图，Globe与DITO两排四项对齐。冻结SHA256未变；官网研究、BLOCKED、实际日志及本地/线上截图一并提交。
