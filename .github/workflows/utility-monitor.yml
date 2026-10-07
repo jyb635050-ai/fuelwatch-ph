@@ -49,7 +49,7 @@ jobs:
         run: |
           mkdir -p .site/data
           cp index.html upgrade.css upgrade.js network.css network.js suppliers.css suppliers.js presyo-icon.svg aureva-icon.svg brand.css .site/
-          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json data/network-bundle.js data/network-prices.json data/provider-bundle.js data/provider-prices.json .site/data/
+          cp data/stations.json data/prices.json data/history.json data/bundle.js data/utility-bundle.js data/utility-prices.json data/network-bundle.js data/network-prices.json data/provider-bundle.js data/provider-prices.json data/telecom-voice.json .site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

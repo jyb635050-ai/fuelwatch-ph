@@ -102,3 +102,5 @@ Broadband and mobile data offers are separate views, grouped by the original bil
 中文名“衡价”，英文品牌“AUREVA”。生活成本参考涵盖燃油、水电煤气与通信；中英名称同时用于页头、浏览器标题与应用名。深墨蓝底/香槟金几何A与水平衡量线用于SVG图标，保持小尺寸清晰。品牌资源为aureva-icon.svg与brand.css，无外部字体、构建或新增服务。
 
 2026-10-07：按用户要求移除价格总览入口与总览卡片页，只保留油价地图、水价、电价、LPG、宽带、电信六个直接分类。价格与官方来源数据不删除。验证工具 tools/browser_no_overview.mjs 检查入口/卡片不存在、分类直接往返、供应商筛选和手机布局。
+
+2026-10-07：Telecom页新增独立Calls/SMS权益列和普通按量资费表。Globe4条官网普通资费，DITO4条2025-02-12历史官方参考，含明确原日期；国内分钟、SMS按条与套餐标价分开。DITO6套餐卡的通话/短信自动提取；TNT/Go59权益与普通表本次人工核验，不随日更新伪刷新。Smart/TNT未知普通资费及未列套餐权益保留未核实，不能当免费。详见docs/research-calls-sms-20261007.md与BLOCKED。

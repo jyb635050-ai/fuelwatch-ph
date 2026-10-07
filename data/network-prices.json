@@ -9,11 +9,11 @@
       "price": 1299,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.pldthome.com/internet",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": 36,
       "speed_mbps": 100.0,
@@ -27,11 +27,11 @@
       "price": 1699,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.pldthome.com/internet",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": 36,
       "speed_mbps": 500.0,
@@ -45,11 +45,11 @@
       "price": 2099,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.pldthome.com/internet",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": 36,
       "speed_mbps": 700.0,
@@ -63,11 +63,11 @@
       "price": 2699,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.pldthome.com/internet",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": 36,
       "speed_mbps": 1000.0,
@@ -81,11 +81,11 @@
       "price": 9499,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.pldthome.com/internet",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": 36,
       "speed_mbps": 1000.0,
@@ -156,11 +156,11 @@
       "price": 1349,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.convergeict.com/super-fiberx",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": null,
       "speed_mbps": 200,
@@ -174,11 +174,11 @@
       "price": 1599,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.convergeict.com/super-fiberx",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": null,
       "speed_mbps": 400,
@@ -192,11 +192,11 @@
       "price": 2099,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.convergeict.com/super-fiberx",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": null,
       "speed_mbps": 800,
@@ -210,11 +210,11 @@
       "price": 2599,
       "currency": "PHP",
       "billing_period": "month",
-      "observed_at": "2026-10-05",
+      "observed_at": "2026-10-07",
       "date_kind": "observed",
       "source_url": "https://www.convergeict.com/super-fiberx",
       "region": "Philippines · subject to supplier address/network coverage",
-      "status": "fetch-failed",
+      "status": "observed",
       "setup_fee": null,
       "lock_in_months": null,
       "speed_mbps": 1000,
@@ -237,7 +237,9 @@
       "lock_in_months": null,
       "data_gb": 8,
       "data_allowance": "8 GB all-sites shareable data; unlimited TikTok advertised",
-      "conditions": "Official Smart store Smart Bro listing; eligible SIM/account required. Confirm availability in the supplier app. Additional SIM/device cost not included."
+      "conditions": "Official Smart store Smart Bro listing; eligible SIM/account required. Confirm availability in the supplier app. Additional SIM/device cost not included.",
+      "calls_text": "未核实 / Not verified（不代表免费）",
+      "sms_text": "未核实 / Not verified（不代表免费）"
     },
     {
       "provider": "DITO",
@@ -255,7 +257,12 @@
       "lock_in_months": null,
       "data_gb": 12,
       "data_allowance": "12 GB data allocation; see official call/text/rollover terms",
-      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply."
+      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
+      "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
+      "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "observed",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
     {
       "provider": "DITO",
@@ -273,7 +280,12 @@
       "lock_in_months": null,
       "data_gb": 16,
       "data_allowance": "16 GB data allocation; see official call/text/rollover terms",
-      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply."
+      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
+      "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
+      "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "observed",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
     {
       "provider": "DITO",
@@ -291,7 +303,12 @@
       "lock_in_months": null,
       "data_gb": 20,
       "data_allowance": "20 GB data allocation; see official call/text/rollover terms",
-      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply."
+      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
+      "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
+      "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "observed",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
     {
       "provider": "DITO",
@@ -309,7 +326,12 @@
       "lock_in_months": null,
       "data_gb": 32,
       "data_allowance": "32 GB data allocation; see official call/text/rollover terms",
-      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply."
+      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
+      "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
+      "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "observed",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
     {
       "provider": "DITO",
@@ -327,7 +349,12 @@
       "lock_in_months": null,
       "data_gb": 62,
       "data_allowance": "62 GB data allocation; see official call/text/rollover terms",
-      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply."
+      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
+      "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
+      "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "observed",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
     {
       "provider": "DITO",
@@ -345,7 +372,12 @@
       "lock_in_months": null,
       "data_gb": 130,
       "data_allowance": "130 GB data allocation; see official call/text/rollover terms",
-      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply."
+      "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
+      "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
+      "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "observed",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
     {
       "provider": "SKY",
@@ -505,7 +537,12 @@
       "setup_fee": null,
       "lock_in_months": null,
       "status": "manual-verified",
-      "date_kind": "observed"
+      "date_kind": "observed",
+      "calls_text": "无限通话 / Unlimited calls；座机和国际范围未核实",
+      "sms_text": "无限短信 / Unlimited texts；号码范围以官网及App确认",
+      "voice_sms_source_url": "https://tntph.com/Pages/all-access",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "manual-verified"
     },
     {
       "provider": "TNT",
@@ -525,7 +562,9 @@
       "setup_fee": null,
       "lock_in_months": null,
       "status": "manual-verified",
-      "date_kind": "observed"
+      "date_kind": "observed",
+      "calls_text": "未核实 / Not verified（不代表免费）",
+      "sms_text": "未核实 / Not verified（不代表免费）"
     },
     {
       "provider": "TNT",
@@ -545,7 +584,9 @@
       "setup_fee": null,
       "lock_in_months": null,
       "status": "manual-verified",
-      "date_kind": "observed"
+      "date_kind": "observed",
+      "calls_text": "未核实 / Not verified（不代表免费）",
+      "sms_text": "未核实 / Not verified（不代表免费）"
     },
     {
       "provider": "TNT",
@@ -565,7 +606,9 @@
       "setup_fee": null,
       "lock_in_months": null,
       "status": "manual-verified",
-      "date_kind": "observed"
+      "date_kind": "observed",
+      "calls_text": "未核实 / Not verified（不代表免费）",
+      "sms_text": "未核实 / Not verified（不代表免费）"
     },
     {
       "provider": "Globe",
@@ -585,7 +628,12 @@
       "setup_fee": null,
       "lock_in_months": null,
       "status": "manual-verified",
-      "date_kind": "observed"
+      "date_kind": "observed",
+      "calls_text": "官网未列明通话权益 · 不代表免费",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS",
+      "voice_sms_source_url": "https://www.globe.com.ph/prepaid/go-promos",
+      "voice_sms_observed_at": "2026-10-07",
+      "voice_sms_status": "manual-verified"
     }
   ],
   "providers": [
@@ -593,8 +641,7 @@
       "provider": "PLDT",
       "source_url": "https://www.pldthome.com/internet",
       "checked_at": "2026-10-07",
-      "status": "fetch-failed",
-      "error": "Unique Fiber Unli comparison table missing"
+      "status": "observed"
     },
     {
       "provider": "Globe",
@@ -606,8 +653,7 @@
       "provider": "Converge",
       "source_url": "https://www.convergeict.com/super-fiberx",
       "checked_at": "2026-10-07",
-      "status": "fetch-failed",
-      "error": "Command '['curl', '-f', '-sS', '-L', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36', '--retry', '1', '--max-time', '3"
+      "status": "observed"
     },
     {
       "provider": "Smart",
@@ -633,5 +679,152 @@
       "status": "manual-verified",
       "observed_at": "2026-10-06"
     }
-  ]
+  ],
+  "voice_sms": {
+    "reviewed_at": "2026-10-07",
+    "regular_rows": [
+      {
+        "provider": "Globe",
+        "service": "call",
+        "destination": "Globe / TM",
+        "price": 6.5,
+        "currency": "PHP",
+        "unit": "PHP/minute",
+        "source_url": "https://www.globe.com.ph/prepaid",
+        "observed_at": "2026-10-07",
+        "published_at": null,
+        "effective_date": null,
+        "status": "official-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+      },
+      {
+        "provider": "Globe",
+        "service": "call",
+        "destination": "其他菲律宾手机网络",
+        "price": 7.5,
+        "currency": "PHP",
+        "unit": "PHP/minute",
+        "source_url": "https://www.globe.com.ph/prepaid",
+        "observed_at": "2026-10-07",
+        "published_at": null,
+        "effective_date": null,
+        "status": "official-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+      },
+      {
+        "provider": "Globe",
+        "service": "call",
+        "destination": "菲律宾座机",
+        "price": 7.5,
+        "currency": "PHP",
+        "unit": "PHP/minute",
+        "source_url": "https://www.globe.com.ph/prepaid",
+        "observed_at": "2026-10-07",
+        "published_at": null,
+        "effective_date": null,
+        "status": "official-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+      },
+      {
+        "provider": "Globe",
+        "service": "sms",
+        "destination": "菲律宾手机网络",
+        "price": 1,
+        "currency": "PHP",
+        "unit": "PHP/SMS",
+        "source_url": "https://www.globe.com.ph/prepaid",
+        "observed_at": "2026-10-07",
+        "published_at": null,
+        "effective_date": null,
+        "status": "official-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+      },
+      {
+        "provider": "DITO",
+        "service": "call",
+        "destination": "DITO",
+        "price": 6.5,
+        "currency": "PHP",
+        "unit": "PHP/minute",
+        "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+        "observed_at": "2026-10-07",
+        "published_at": "2025-02-12",
+        "effective_date": null,
+        "status": "historical-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+      },
+      {
+        "provider": "DITO",
+        "service": "call",
+        "destination": "其他菲律宾手机网络",
+        "price": 7.5,
+        "currency": "PHP",
+        "unit": "PHP/minute",
+        "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+        "observed_at": "2026-10-07",
+        "published_at": "2025-02-12",
+        "effective_date": null,
+        "status": "historical-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+      },
+      {
+        "provider": "DITO",
+        "service": "call",
+        "destination": "菲律宾座机",
+        "price": 7.5,
+        "currency": "PHP",
+        "unit": "PHP/minute",
+        "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+        "observed_at": "2026-10-07",
+        "published_at": "2025-02-12",
+        "effective_date": null,
+        "status": "historical-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+      },
+      {
+        "provider": "DITO",
+        "service": "sms",
+        "destination": "菲律宾手机网络",
+        "price": 1,
+        "currency": "PHP",
+        "unit": "PHP/SMS",
+        "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+        "observed_at": "2026-10-07",
+        "published_at": "2025-02-12",
+        "effective_date": null,
+        "status": "historical-reference",
+        "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+      }
+    ],
+    "inclusions": [
+      {
+        "provider": "Globe",
+        "plan": "Go59",
+        "calls_text": "官网未列明通话权益 · 不代表免费",
+        "sms_text": "全网手机短信无限 / Unlimited all-net SMS",
+        "source_url": "https://www.globe.com.ph/prepaid/go-promos",
+        "observed_at": "2026-10-07"
+      },
+      {
+        "provider": "TNT",
+        "plan": "ALL ACCESS+ 99 - 15D",
+        "calls_text": "无限通话 / Unlimited calls；座机和国际范围未核实",
+        "sms_text": "无限短信 / Unlimited texts；号码范围以官网及App确认",
+        "source_url": "https://tntph.com/Pages/all-access",
+        "observed_at": "2026-10-07"
+      }
+    ],
+    "gaps": [
+      {
+        "provider": "Smart",
+        "reason": "已读POWER ALL99页面只列流量/TikTok，通话和短信未列明；普通分钟/短信资费未从当前官网确证。",
+        "source_url": "https://store.smart.com.ph/smart-bro/power-all-99/1601900800.html"
+      },
+      {
+        "provider": "TNT",
+        "reason": "ALL ACCESS+列出无限通话短信；5G数据套餐的通话短信权益及普通分钟/短信资费未确证。",
+        "source_url": "https://tntph.com/Pages/promos"
+      }
+    ]
+  }
 }

@@ -89,6 +89,10 @@ def dito(root,url):
   txt=norm(card.text());g=re.search(r'DATA ALLOCATION (\d+)GB',txt);p=re.search(r'₱\s*(\d+) Valid for (\d+) days',txt,re.I)
   if not(g and p):raise ValueError('Missing basic Level-Up plan parameters')
   out.append(row('DITO',norm(title.text()),'mobile',int(p[1]),p[2]+' days',url,data_gb=int(g[1]),data_allowance=g[1]+' GB data allocation; see official call/text/rollover terms',conditions='Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.'))
+  minutes=re.search(r'(\d+) mins calls to other mobile networks',txt,re.I)
+  if minutes and re.search(r'Unli DITO to DITO calls',txt,re.I):
+   out[-1].update(calls_text='DITO网内无限 + '+minutes[1]+'分钟其他手机网络 / Unlimited on-net + '+minutes[1]+' off-net mobile minutes',voice_sms_source_url=url,voice_sms_observed_at=DAY,voice_sms_status='observed')
+  if re.search(r'Unli Text to all mobile networks',txt,re.I):out[-1]['sms_text']='全网手机短信无限 / Unlimited all-net SMS'
  if len(out)<3:raise ValueError('Insufficient standard Level-Up cards')
  return out
 SOURCES=[('PLDT','https://www.pldthome.com/internet',pldt),('Globe','https://gfiberprepaid.globe.com.ph/',globe),('Converge','https://www.convergeict.com/super-fiberx',converge),('Smart','https://store.smart.com.ph/smart-bro/power-all-99/1601900800.html',smart),('DITO','https://dito.ph/prepaid/level-up',dito)]

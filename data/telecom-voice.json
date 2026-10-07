@@ -1,0 +1,147 @@
+{
+  "reviewed_at": "2026-10-07",
+  "regular_rows": [
+    {
+      "provider": "Globe",
+      "service": "call",
+      "destination": "Globe / TM",
+      "price": 6.5,
+      "currency": "PHP",
+      "unit": "PHP/minute",
+      "source_url": "https://www.globe.com.ph/prepaid",
+      "observed_at": "2026-10-07",
+      "published_at": null,
+      "effective_date": null,
+      "status": "official-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+    },
+    {
+      "provider": "Globe",
+      "service": "call",
+      "destination": "其他菲律宾手机网络",
+      "price": 7.5,
+      "currency": "PHP",
+      "unit": "PHP/minute",
+      "source_url": "https://www.globe.com.ph/prepaid",
+      "observed_at": "2026-10-07",
+      "published_at": null,
+      "effective_date": null,
+      "status": "official-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+    },
+    {
+      "provider": "Globe",
+      "service": "call",
+      "destination": "菲律宾座机",
+      "price": 7.5,
+      "currency": "PHP",
+      "unit": "PHP/minute",
+      "source_url": "https://www.globe.com.ph/prepaid",
+      "observed_at": "2026-10-07",
+      "published_at": null,
+      "effective_date": null,
+      "status": "official-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+    },
+    {
+      "provider": "Globe",
+      "service": "sms",
+      "destination": "菲律宾手机网络",
+      "price": 1,
+      "currency": "PHP",
+      "unit": "PHP/SMS",
+      "source_url": "https://www.globe.com.ph/prepaid",
+      "observed_at": "2026-10-07",
+      "published_at": null,
+      "effective_date": null,
+      "status": "official-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。不代表国际或漫游资费。"
+    },
+    {
+      "provider": "DITO",
+      "service": "call",
+      "destination": "DITO",
+      "price": 6.5,
+      "currency": "PHP",
+      "unit": "PHP/minute",
+      "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+      "observed_at": "2026-10-07",
+      "published_at": "2025-02-12",
+      "effective_date": null,
+      "status": "historical-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+    },
+    {
+      "provider": "DITO",
+      "service": "call",
+      "destination": "其他菲律宾手机网络",
+      "price": 7.5,
+      "currency": "PHP",
+      "unit": "PHP/minute",
+      "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+      "observed_at": "2026-10-07",
+      "published_at": "2025-02-12",
+      "effective_date": null,
+      "status": "historical-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+    },
+    {
+      "provider": "DITO",
+      "service": "call",
+      "destination": "菲律宾座机",
+      "price": 7.5,
+      "currency": "PHP",
+      "unit": "PHP/minute",
+      "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+      "observed_at": "2026-10-07",
+      "published_at": "2025-02-12",
+      "effective_date": null,
+      "status": "historical-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+    },
+    {
+      "provider": "DITO",
+      "service": "sms",
+      "destination": "菲律宾手机网络",
+      "price": 1,
+      "currency": "PHP",
+      "unit": "PHP/SMS",
+      "source_url": "https://dito.ph/blog/buy-prepaid-load-online-philippines",
+      "observed_at": "2026-10-07",
+      "published_at": "2025-02-12",
+      "effective_date": null,
+      "status": "historical-reference",
+      "scope": "普通预付费余额资费，未订适用套餐时的官方参考；生效日期未注明；计费舍入、号码类型及实际扣费向运营商确认。2025官方文章历史参考，当前是否继续适用未确证。"
+    }
+  ],
+  "inclusions": [
+    {
+      "provider": "Globe",
+      "plan": "Go59",
+      "calls_text": "官网未列明通话权益 · 不代表免费",
+      "sms_text": "全网手机短信无限 / Unlimited all-net SMS",
+      "source_url": "https://www.globe.com.ph/prepaid/go-promos",
+      "observed_at": "2026-10-07"
+    },
+    {
+      "provider": "TNT",
+      "plan": "ALL ACCESS+ 99 - 15D",
+      "calls_text": "无限通话 / Unlimited calls；座机和国际范围未核实",
+      "sms_text": "无限短信 / Unlimited texts；号码范围以官网及App确认",
+      "source_url": "https://tntph.com/Pages/all-access",
+      "observed_at": "2026-10-07"
+    }
+  ],
+  "gaps": [
+    {
+      "provider": "Smart",
+      "reason": "已读POWER ALL99页面只列流量/TikTok，通话和短信未列明；普通分钟/短信资费未从当前官网确证。",
+      "source_url": "https://store.smart.com.ph/smart-bro/power-all-99/1601900800.html"
+    },
+    {
+      "provider": "TNT",
+      "reason": "ALL ACCESS+列出无限通话短信；5G数据套餐的通话短信权益及普通分钟/短信资费未确证。",
+      "source_url": "https://tntph.com/Pages/promos"
+    }
+  ]
+}
