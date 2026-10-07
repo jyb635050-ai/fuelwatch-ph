@@ -97,3 +97,5 @@ Automatic price update 2026-10-06T09:00:51.625Z: source=https://gaswatchph.com/,
 2026-10-07 品牌升级1完成：按新请求将中文改衡价、英文AUREVA，使用深墨蓝/香槟金几何A+水平衡量线SVG，双语页头和favicon/title/application-name统一。旧文件已保存在work/brand-oct07，原图标不删除。保持原网址、价格数据和冻结验收；仅品牌资源/两条完整发布流程更新。品牌取简洁可读，系统字体避免新增加载成本。
 
 2026-10-07 品牌升级2完成：本地真实浏览器title、页头中文衡价/英文AUREVA、SVG加载、5总览板块、10842站点和320/390手机无横向溢出全部通过，errors=[]。已查看双语页头截图，字标与深墨蓝/香槟金图标清晰。node docs/acceptance.mjs all全绿，冻结SHA256未变。
+
+2026-10-07 品牌发布阻塞：真实run37554682860在新增供应商校验assert(r.observed_at<=data.reviewed_at)失败，自动检查10月7日不应被昨天人工核验10月6日限制。上线必需修复：增加verification_method区分人工/自动、checked_at从实际记录日期得出；人工核验日不刷新。冻结docs/acceptance.mjs不改，修复和红绿日志一并交付。

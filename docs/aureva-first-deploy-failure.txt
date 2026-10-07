@@ -1,0 +1,28 @@
+collect-and-deploy	Validate original frozen acceptance	﻿2026-10-07T00:58:22.7784531Z ##[group]Run node tools/validate_utilities.mjs
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.7784933Z ^[[36;1mnode tools/validate_utilities.mjs^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.7785252Z ^[[36;1mnode tools/validate_network.mjs^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.7785539Z ^[[36;1mnode tools/validate_providers.mjs^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.7785820Z ^[[36;1mnode docs/acceptance.mjs all^[[0m
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.7848100Z shell: /usr/bin/bash -e {0}
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.7848361Z ##[endgroup]
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.8299523Z PASS utilities: 3 separate categories; official source hosts; dated observations; tariff classes explicit; unavailable natural gas removed
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.8622361Z PASS network: 31 dated official offers; 7 provider checks; billing periods distinct; no inferred effective dates
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9287882Z node:internal/modules/run_main:107
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9288757Z     triggerUncaughtException(
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9289483Z     ^
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9289657Z 
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9290189Z AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9290807Z 
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9291070Z   assert(r.observed_at<=data.reviewed_at)
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9291418Z 
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9291964Z     at file:///home/runner/work/fuelwatch-ph/fuelwatch-ph/tools/validate_providers.mjs:8:52 {
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9292748Z   generatedMessage: true,
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9293179Z   code: 'ERR_ASSERTION',
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9293584Z   actual: false,
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9293959Z   expected: true,
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9294333Z   operator: '==',
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9294704Z   diff: 'simple'
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9295058Z }
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9295242Z 
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9295401Z Node.js v24.21.0
+collect-and-deploy	Validate original frozen acceptance	2026-10-07T00:58:22.9343922Z ##[error]Process completed with exit code 1.

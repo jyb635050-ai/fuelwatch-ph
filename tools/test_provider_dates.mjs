@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {validateProviders} from './validate_providers.mjs';
+const data=JSON.parse(await readFile(new URL('../data/provider-prices.json',import.meta.url),'utf8'));
+const current=new Date(Date.now()+8*3600000).toISOString().slice(0,10);
+const fixture=structuredClone(data);
+fixture.checked_at=current;
+const automatic=fixture.rows.find(r=>r.verification_method==='automatic');assert(automatic);
+automatic.observed_at=current;
+validateProviders(fixture);
+assert.equal(fixture.reviewed_at,'2026-10-06');
+const forged=structuredClone(fixture);forged.rows.find(r=>r.verification_method==='manual').observed_at=current;
+if(current>fixture.reviewed_at)assert.throws(()=>validateProviders(forged));
+const future=structuredClone(fixture);future.checked_at='2099-01-01';assert.throws(()=>validateProviders(future));
+console.log('PASS provider dates: current automatic observation accepted; manual review unchanged; refreshed manual and future dates rejected');

@@ -49,3 +49,5 @@
 供应商调研缺口：水务Metro Cebu、Davao、Baguio、Bacolod、Cagayan de Oro未取得可确认当前数字，保留null。电力Visayan Electric、Davao Light未确证本期数值，Meralco商业完整价未核；SURSECO II高压0.0000疑占位不当免费；Clark需量/固定费不能合成未知工地总价。Balanga网页与官方MDS生效日期、部分阶梯存在分币差异，源表分别注明不擅裁。
 全国水务LWUA名录读取受安全验证限制；DOE官方2024-12目录和NEA2024报告仅作历史供方范围，不声称2026完整活跃数量或全部价格覆盖。地方LGU、社区转售、全部水表口径、临时施工/商业合同仍未齐全。
 新增水电图片/PDF复杂费表及SKY/TNT/Globe Go59本次人工核验，尚不能每日自动解析新价，页面明确；既有PLDT/Converge云端读取限制继续保留失败状态。Starlink、GOMO、Eastern、RISE、Radius未从官网取得可确认公开报价，不猜填。完整证据与来源见三份docs/research-*-20261006.md。
+
+2026-10-07品牌升级：首次发布被供应商人工/自动日期共用上限拦下，失败日志docs/aureva-first-deploy-failure.txt。已区分verification_method与汇总checked_at，人工reviewed_at保持2026-10-06；新增跨日测试接受真实自动检查、拒绝刷新人工日期和未来日期。冻结验收不修改。品牌没有新增未解决项；既有资料缺口继续保留。

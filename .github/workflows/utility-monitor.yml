@@ -36,6 +36,7 @@ jobs:
           node tools/validate_utilities.mjs
           node tools/validate_network.mjs
           node tools/validate_providers.mjs
+          node tools/test_provider_dates.mjs
           node docs/acceptance.mjs all
       - name: Retain observed source history
         run: |

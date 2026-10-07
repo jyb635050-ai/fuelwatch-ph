@@ -1,8 +1,10 @@
 {
   "reviewed_at": "2026-10-06",
+  "checked_at": "2026-10-06",
   "scope": "官网研究子集；非全国完整费率普查。各地区、用户类别、最低费和分项不得直接比价。",
   "rows": [
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Balanga Water District",
       "region": "Balanga, Bataan",
@@ -65,6 +67,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Balanga Water District",
       "region": "Balanga, Bataan",
@@ -127,6 +130,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Balanga Water District",
       "region": "Balanga, Bataan",
@@ -189,6 +193,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Balanga Water District",
       "region": "Balanga, Bataan",
@@ -251,6 +256,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Puerto Princesa City Water District",
       "region": "Puerto Princesa, Palawan",
@@ -306,6 +312,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Puerto Princesa City Water District",
       "region": "Puerto Princesa, Palawan",
@@ -361,6 +368,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Puerto Princesa City Water District",
       "region": "Puerto Princesa, Palawan",
@@ -416,6 +424,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Palayan City Water District",
       "region": "Palayan, Nueva Ecija",
@@ -478,6 +487,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Palayan City Water District",
       "region": "Palayan, Nueva Ecija",
@@ -540,6 +550,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Panabo Water District",
       "region": "Panabo, Davao del Norte",
@@ -609,6 +620,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Panabo Water District",
       "region": "Panabo, Davao del Norte",
@@ -678,6 +690,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Panabo Water District",
       "region": "Panabo, Davao del Norte",
@@ -747,6 +760,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Metropolitan Naga Water District",
       "region": "Naga, Camarines Sur",
@@ -809,6 +823,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Metropolitan Naga Water District",
       "region": "Naga, Camarines Sur",
@@ -871,6 +886,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Metropolitan Naga Water District",
       "region": "Naga, Camarines Sur",
@@ -933,6 +949,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Malaybalay City Water District / PrimeWater",
       "region": "Malaybalay, Bukidnon",
@@ -995,6 +1012,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Malaybalay City Water District / PrimeWater",
       "region": "Malaybalay, Bukidnon",
@@ -1057,6 +1075,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Malaybalay City Water District / PrimeWater",
       "region": "Malaybalay, Bukidnon",
@@ -1119,6 +1138,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Calbayog City Water District",
       "region": "Calbayog, Samar",
@@ -1174,6 +1194,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Calbayog City Water District",
       "region": "Calbayog, Samar",
@@ -1229,6 +1250,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Manila Water",
       "region": "Greater Manila East Zone and Rizal",
@@ -1312,6 +1334,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Maynilad",
       "region": "Greater Manila West Zone and parts of Cavite",
@@ -1331,6 +1354,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Metropolitan Cebu Water District",
       "region": "Metro Cebu",
@@ -1350,6 +1374,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Davao City Water District",
       "region": "Davao City",
@@ -1369,6 +1394,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Baguio Water District",
       "region": "Baguio",
@@ -1388,6 +1414,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Bacolod City Water District / PrimeWater",
       "region": "Bacolod",
@@ -1407,6 +1434,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "water",
       "provider": "Cagayan de Oro Water District",
       "region": "Cagayan de Oro",
@@ -1426,6 +1454,7 @@
       "status": "manual-verified"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "NEECO I",
       "region": "Nueva Ecija — NEECO I franchise area",
@@ -1445,6 +1474,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "NEECO I",
       "region": "Nueva Ecija — NEECO I franchise area",
@@ -1464,6 +1494,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "NEECO I",
       "region": "Nueva Ecija — NEECO I franchise area",
@@ -1483,6 +1514,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "CASURECO I",
       "region": "Camarines Sur — CASURECO I franchise area",
@@ -1502,6 +1534,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "CASURECO I",
       "region": "Camarines Sur — CASURECO I franchise area",
@@ -1521,6 +1554,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "CASURECO I",
       "region": "Camarines Sur — CASURECO I franchise area",
@@ -1540,6 +1574,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "CASURECO II",
       "region": "Camarines Sur — CASURECO II franchise area",
@@ -1559,6 +1594,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "CASURECO II",
       "region": "Camarines Sur — CASURECO II franchise area",
@@ -1578,6 +1614,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "CASURECO II",
       "region": "Camarines Sur — CASURECO II franchise area",
@@ -1597,6 +1634,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "SURSECO II",
       "region": "Surigao del Sur — SURSECO II franchise area",
@@ -1616,6 +1654,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "SURSECO II",
       "region": "Surigao del Sur — SURSECO II franchise area",
@@ -1635,6 +1674,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "ZANECO",
       "region": "Zamboanga del Norte — ZANECO franchise area",
@@ -1654,6 +1694,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "ZANECO",
       "region": "Zamboanga del Norte — ZANECO franchise area",
@@ -1673,6 +1714,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "ZANECO",
       "region": "Zamboanga del Norte — ZANECO franchise area",
@@ -1692,6 +1734,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "BENECO",
       "region": "Baguio City and Benguet — BENECO franchise area",
@@ -1711,6 +1754,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "BENECO",
       "region": "Baguio City and Benguet — BENECO franchise area",
@@ -1730,6 +1774,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "BENECO",
       "region": "Baguio City and Benguet — BENECO franchise area",
@@ -1749,6 +1794,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "BENECO",
       "region": "Baguio City and Benguet — BENECO franchise area",
@@ -1768,6 +1814,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "AKELCO",
       "region": "Aklan — AKELCO franchise area",
@@ -1787,6 +1834,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "AKELCO",
       "region": "Aklan — AKELCO franchise area",
@@ -1806,6 +1854,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "AKELCO",
       "region": "Aklan — AKELCO franchise area",
@@ -1825,6 +1874,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "OMECO",
       "region": "Mainland Occidental Mindoro — OMECO franchise area",
@@ -1844,6 +1894,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "OMECO",
       "region": "Mainland Occidental Mindoro — OMECO franchise area",
@@ -1863,6 +1914,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "OMECO",
       "region": "Mainland Occidental Mindoro — OMECO franchise area",
@@ -1882,6 +1934,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "OMECO",
       "region": "Mainland Occidental Mindoro — OMECO franchise area",
@@ -1901,6 +1954,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "OMECO",
       "region": "Mainland Occidental Mindoro — OMECO franchise area",
@@ -1920,6 +1974,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "OMECO",
       "region": "Mainland Occidental Mindoro — OMECO franchise area",
@@ -1939,6 +1994,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "MORE Power",
       "region": "Iloilo — MORE Power franchise area",
@@ -1958,6 +2014,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "MORE Power",
       "region": "Iloilo — MORE Power franchise area",
@@ -1977,6 +2034,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "MORE Power",
       "region": "Iloilo — MORE Power franchise area",
@@ -1996,6 +2054,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "MORE Power",
       "region": "Iloilo — MORE Power franchise area",
@@ -2015,6 +2074,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "MORE Power",
       "region": "Iloilo — MORE Power franchise area",
@@ -2034,6 +2094,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "MORE Power",
       "region": "Iloilo — MORE Power franchise area",
@@ -2053,6 +2114,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "MORE Power",
       "region": "Iloilo — MORE Power franchise area",
@@ -2072,6 +2134,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "Negros Power",
       "region": "Central Negros — Negros Power franchise area",
@@ -2091,6 +2154,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "Clark Electric",
       "region": "Clark Freeport Zone",
@@ -2153,6 +2217,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "SURSECO II",
       "region": "供区详见官网",
@@ -2172,6 +2237,7 @@
       "status": "unavailable"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "Visayan Electric",
       "region": "Greater Metro Cebu",
@@ -2191,6 +2257,7 @@
       "status": "unavailable"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "Davao Light",
       "region": "Davao City, Panabo, Carmen, Dujali, Sto. Tomas",
@@ -2210,6 +2277,7 @@
       "status": "unavailable"
     },
     {
+      "verification_method": "manual",
       "service": "electricity",
       "provider": "Meralco",
       "region": "供区详见官网",
@@ -2229,6 +2297,7 @@
       "status": "unavailable"
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Mindanao (monitored areas)",
@@ -2250,6 +2319,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Region IV-A (CALABARZON monitored areas)",
@@ -2271,6 +2341,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Davao City",
@@ -2292,6 +2363,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Tagum City",
@@ -2313,6 +2385,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Cagayan de Oro City",
@@ -2334,6 +2407,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Mandaue City",
@@ -2355,6 +2429,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Bacolod City",
@@ -2376,6 +2451,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Tagbilaran City",
@@ -2397,6 +2473,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Tacloban City",
@@ -2418,6 +2495,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "manual",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "Borongan City",
@@ -2439,6 +2517,7 @@
       "tariffs": []
     },
     {
+      "verification_method": "automatic",
       "service": "electricity",
       "provider": "Meralco",
       "region": "Meralco service area",
@@ -2460,6 +2539,7 @@
       "status": "historical"
     },
     {
+      "verification_method": "automatic",
       "service": "lpg",
       "provider": "DOE 地区LPG监测",
       "region": "NCR",
