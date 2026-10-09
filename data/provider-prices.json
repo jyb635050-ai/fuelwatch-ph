@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-10-06",
-  "checked_at": "2026-10-08",
+  "checked_at": "2026-10-09",
   "scope": "官网研究子集；非全国完整费率普查。各地区、用户类别、最低费和分项不得直接比价。",
   "rows": [
     {
@@ -2531,7 +2531,7 @@
       "effective_date": "2026-09-11",
       "period": null,
       "publication_date": null,
-      "observed_at": "2026-10-08",
+      "observed_at": "2026-10-09",
       "source_url": "https://meralcomain.s3.ap-southeast-1.amazonaws.com/2026-09/english_press_release-_meralco_september_2026_rates.pdf",
       "scope": "Typical residential overall rate; business tariff unverified",
       "notes": "Typical residential household reference, NOT the commercial rate for a shop. Business contracts, demand and bill components differ.",
@@ -2553,7 +2553,7 @@
       "effective_date": "2026-09-01",
       "period": null,
       "publication_date": null,
-      "observed_at": "2026-10-08",
+      "observed_at": "2026-10-09",
       "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20September%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia",
       "scope": "Household 11 kg LPG survey; not natural gas",
       "notes": "DOE surveyed NCR household 11 kg LPG cylinders; price range, not a quote from an individual shop. Delivery/deposit may differ.",
