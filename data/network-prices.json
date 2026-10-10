@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09",
+  "checked_at": "2026-10-10",
   "date_note": "observed_at is the date the official product page was read, not a tariff effective date. Prices are advertised offers, subject to supplier confirmation.",
   "rows": [
     {
@@ -99,7 +99,7 @@
       "price": 749,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://gfiberprepaid.globe.com.ph/",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -118,7 +118,7 @@
       "price": 999,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://gfiberprepaid.globe.com.ph/",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -137,7 +137,7 @@
       "price": 1499,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://gfiberprepaid.globe.com.ph/",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -228,7 +228,7 @@
       "price": 99.0,
       "currency": "PHP",
       "billing_period": "7 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://store.smart.com.ph/smart-bro/power-all-99/1601900800.html",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -248,7 +248,7 @@
       "price": 129,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://dito.ph/prepaid/level-up",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -260,7 +260,7 @@
       "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
       "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
       "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
-      "voice_sms_observed_at": "2026-10-09",
+      "voice_sms_observed_at": "2026-10-10",
       "voice_sms_status": "observed",
       "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
@@ -271,7 +271,7 @@
       "price": 169,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://dito.ph/prepaid/level-up",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -283,7 +283,7 @@
       "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
       "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
       "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
-      "voice_sms_observed_at": "2026-10-09",
+      "voice_sms_observed_at": "2026-10-10",
       "voice_sms_status": "observed",
       "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
@@ -294,7 +294,7 @@
       "price": 199,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://dito.ph/prepaid/level-up",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -306,7 +306,7 @@
       "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
       "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
       "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
-      "voice_sms_observed_at": "2026-10-09",
+      "voice_sms_observed_at": "2026-10-10",
       "voice_sms_status": "observed",
       "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
@@ -317,7 +317,7 @@
       "price": 299,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://dito.ph/prepaid/level-up",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -329,7 +329,7 @@
       "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
       "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
       "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
-      "voice_sms_observed_at": "2026-10-09",
+      "voice_sms_observed_at": "2026-10-10",
       "voice_sms_status": "observed",
       "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
@@ -340,7 +340,7 @@
       "price": 499,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://dito.ph/prepaid/level-up",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -352,7 +352,7 @@
       "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
       "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
       "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
-      "voice_sms_observed_at": "2026-10-09",
+      "voice_sms_observed_at": "2026-10-10",
       "voice_sms_status": "observed",
       "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
@@ -363,7 +363,7 @@
       "price": 999,
       "currency": "PHP",
       "billing_period": "30 days",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10",
       "date_kind": "observed",
       "source_url": "https://dito.ph/prepaid/level-up",
       "region": "Philippines · subject to supplier address/network coverage",
@@ -375,7 +375,7 @@
       "conditions": "Standard prepaid Level-Up pack. Excludes 5G Double Data and app-specific Socials variants. Account, handset and coverage eligibility apply.",
       "calls_text": "DITO网内无限 + 300分钟其他手机网络 / Unlimited on-net + 300 off-net mobile minutes",
       "voice_sms_source_url": "https://dito.ph/prepaid/level-up",
-      "voice_sms_observed_at": "2026-10-09",
+      "voice_sms_observed_at": "2026-10-10",
       "voice_sms_status": "observed",
       "sms_text": "全网手机短信无限 / Unlimited all-net SMS"
     },
@@ -640,33 +640,33 @@
     {
       "provider": "PLDT",
       "source_url": "https://www.pldthome.com/internet",
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-10",
       "status": "fetch-failed",
       "error": "Unique Fiber Unli comparison table missing"
     },
     {
       "provider": "Globe",
       "source_url": "https://gfiberprepaid.globe.com.ph/",
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-10",
       "status": "observed"
     },
     {
       "provider": "Converge",
       "source_url": "https://www.convergeict.com/super-fiberx",
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-10",
       "status": "fetch-failed",
       "error": "Command '['curl', '-f', '-sS', '-L', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36', '--retry', '1', '--max-time', '3"
     },
     {
       "provider": "Smart",
       "source_url": "https://store.smart.com.ph/smart-bro/power-all-99/1601900800.html",
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-10",
       "status": "observed"
     },
     {
       "provider": "DITO",
       "source_url": "https://dito.ph/prepaid/level-up",
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-10",
       "status": "observed"
     },
     {
