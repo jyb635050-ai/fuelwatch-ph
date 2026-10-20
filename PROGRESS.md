@@ -121,3 +121,5 @@ Automatic price update 2026-10-06T09:00:51.625Z: source=https://gaswatchph.com/,
 2026-10-07 通话短信3完成：run37560036408 success，线上HTTP/1.1 200 OK。云端独立Calls/SMS校验通过，真实线上浏览器regularRates=8/callSmsRows=12、DITO历史标识、未知不当免费、供应商筛选及六分类往返、返回10842站地图/手机无溢出/errors=[]通过。已查看线上普通资费截图，Globe与DITO两排四项对齐。冻结SHA256未变；官网研究、BLOCKED、实际日志及本地/线上截图一并提交。
 
 Automatic price update 2026-10-13T09:27:08.773Z: source=https://gaswatchph.com/, week=2026-10-13, rows=18; prior snapshot retained; frozen acceptance passed.
+
+Automatic price update 2026-10-20T07:36:46.644Z: source=https://gaswatchph.com/, week=2026-10-20, rows=18; prior snapshot retained; frozen acceptance passed.
