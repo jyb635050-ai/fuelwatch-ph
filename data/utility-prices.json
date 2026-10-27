@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-10-13",
+  "checked_at": "2026-10-27",
   "categories": [
     {
       "id": "water",
       "title": "Water",
       "source_url": "https://www.mayniladwater.com.ph/notice-to-maynilad-customers-foreign-currency-differential-adjustment-fcda-effective-october-1-2026/",
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-27",
       "observations": [
         {
           "provider": "Maynilad",
@@ -24,7 +24,7 @@
       "id": "electricity",
       "title": "Electricity",
       "source_url": "https://meralcomain.s3.ap-southeast-1.amazonaws.com/2026-09/english_press_release-_meralco_september_2026_rates.pdf",
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-27",
       "observations": [
         {
           "provider": "Meralco",
@@ -42,20 +42,20 @@
     {
       "id": "lpg",
       "title": "LPG / bottled gas",
-      "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20September%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia",
-      "checked_at": "2026-10-13",
+      "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20October%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia",
+      "checked_at": "2026-10-27",
       "observations": [
         {
           "provider": "DOE NCR survey",
           "region": "NCR",
-          "min": 1025.0,
-          "max": 1535.0,
-          "common": 1341.0,
+          "min": 1268.0,
+          "max": 1710.0,
+          "common": 1430.0,
           "unit": "PHP / 11 kg cylinder",
-          "as_of": "2026-09-01",
-          "period_end": "2026-09-07",
+          "as_of": "2026-10-01",
+          "period_end": "2026-10-08",
           "scope": "Household 11 kg LPG survey; not natural gas",
-          "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20September%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia"
+          "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20October%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia"
         }
       ],
       "status": "historical",
