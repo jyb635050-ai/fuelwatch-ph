@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-10-29",
+  "checked_at": "2026-10-30",
   "categories": [
     {
       "id": "water",
       "title": "Water",
       "source_url": "https://www.mayniladwater.com.ph/notice-to-maynilad-customers-foreign-currency-differential-adjustment-fcda-effective-october-1-2026/",
-      "checked_at": "2026-10-29",
+      "checked_at": "2026-10-30",
       "observations": [
         {
           "provider": "Maynilad",
@@ -25,7 +25,7 @@
       "id": "electricity",
       "title": "Electricity",
       "source_url": "https://meralcomain.s3.ap-southeast-1.amazonaws.com/2026-09/english_press_release-_meralco_september_2026_rates.pdf",
-      "checked_at": "2026-10-29",
+      "checked_at": "2026-10-30",
       "observations": [
         {
           "provider": "Meralco",
@@ -44,7 +44,7 @@
       "id": "lpg",
       "title": "LPG / bottled gas",
       "source_url": "https://d24qbtp4vooyzi.cloudfront.net/api/media/file/NCR%20October%202026%20LPG%20Price%20Monitoring.pdf?prefix=dev%2Fmedia",
-      "checked_at": "2026-10-29",
+      "checked_at": "2026-10-30",
       "observations": [
         {
           "provider": "DOE NCR survey",
