@@ -1,149 +1,149 @@
 {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-24",
   "rows": [
     {
       "brand": "Caltex",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 88.14,
+      "price": 85.54,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Caltex",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 74.22,
+      "price": 71.27,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Flying V",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 83.52,
+      "price": 81.85,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Flying V",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 65.44,
+      "price": 60.78,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Petron",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 86.6,
+      "price": 84,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Petron",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 70.49,
+      "price": 67.56,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Phoenix",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 86.47,
+      "price": 83.45,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Phoenix",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 73.85,
+      "price": 69.92,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "PTT",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 86.65,
+      "price": 83.93,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "PTT",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 73.63,
+      "price": 68.83,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Seaoil",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 85.74,
+      "price": 83.02,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Seaoil",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 67.97,
+      "price": 65.74,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Shell",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 87.41,
+      "price": 84.81,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Shell",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 75.47,
+      "price": 72.38,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "TotalEnergies",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 82.12,
+      "price": 79.52,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "TotalEnergies",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 69.47,
+      "price": 66.47,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Unioil",
       "region": "NCR",
       "fuel": "diesel",
-      "price": 85.27,
+      "price": 82.67,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     },
     {
       "brand": "Unioil",
       "region": "NCR",
       "fuel": "ron91",
-      "price": 70.36,
+      "price": 67.36,
       "source_url": "https://gaswatchph.com/",
-      "as_of": "2026-11-17"
+      "as_of": "2026-11-24"
     }
   ]
 }

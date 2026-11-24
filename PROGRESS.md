@@ -129,3 +129,5 @@ Automatic price update 2026-10-27T07:54:24.275Z: source=https://gaswatchph.com/,
 Automatic price update 2026-11-10T09:53:51.855Z: source=https://gaswatchph.com/, week=2026-11-10, rows=18; prior snapshot retained; frozen acceptance passed.
 
 Automatic price update 2026-11-17T10:45:33.766Z: source=https://gaswatchph.com/, week=2026-11-17, rows=18; prior snapshot retained; frozen acceptance passed.
+
+Automatic price update 2026-11-24T12:31:14.977Z: source=https://gaswatchph.com/, week=2026-11-24, rows=18; prior snapshot retained; frozen acceptance passed.
